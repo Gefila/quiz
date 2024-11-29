@@ -18,13 +18,15 @@ export default function QuizPage() {
         switch (action.type) {
             case "start":
                 return { ...state, status: "start" };
+            case "next":
+                return { ...state, number: state.number + 1 };
         }
     }
     console.log(quizData);
     return (
         <div className="flex w-full h-screen justify-center items-center bg-slate-950">
             {status === "idle" && <StartScreen dispatch={dispatch} />}
-            {status === "start" && <Question />}
+            {status === "start" && <Question dispatch={dispatch} questionData={quizData.soal[number]}/>}
         </div>
     );
 }
