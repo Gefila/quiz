@@ -1,0 +1,38 @@
+{
+    "kelas": "TI5A",
+    "soal": [
+        {
+            "id": 1,
+            "question": "Apa itu HTML?",
+            "options": [
+                "Hyper Text Markup Language",
+                "Hyper Text Markup Link",
+                "Hyper Text Markup List",
+                "Hyper Text Markup Logo"
+            ],
+            "answer": "Hyper Text Markup Language"
+        },
+        {
+            "id": 2,
+            "question": "Apa itu CSS?",
+            "options": [
+                "Cascading Style Sheet",
+                "Cascading Style Script",
+                "Cascading Style Syntax",
+                "Cascading Style Structure"
+            ],
+            "answer": "Cascading Style Sheet"
+        },
+        {
+            "id": 3,
+            "question": "Apa itu JS?",
+            "options": [
+                "JavaScript",
+                "Java Stylesheet",
+                "Java Specification",
+                "Java Scripting"
+            ],
+            "answer": "JavaScript"
+        }
+    ]
+}

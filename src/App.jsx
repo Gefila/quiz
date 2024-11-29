@@ -1,12 +1,9 @@
-import { useState } from 'react'
-
+import QuizPage from './pages/QuizPage'
 
 function App() {
 
   return (
-    <>
-      <button className="btn-outline">Button</button>
-    </>
+      <QuizPage/>
   )
 }
 
