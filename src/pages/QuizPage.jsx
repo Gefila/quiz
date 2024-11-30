@@ -12,6 +12,10 @@ export default function QuizPage() {
             score,
             answer,
             isCorrect,
+<<<<<<< HEAD
+=======
+            selectedOption,
+>>>>>>> ac66a4e32439ef67500856ee1c71780c680a8fe8
             option,
         },
         dispatch,
