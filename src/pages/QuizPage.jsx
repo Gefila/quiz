@@ -5,19 +5,7 @@ import Question from "../components/Question";
 
 export default function QuizPage() {
     const [
-        {
-            quizData,
-            status,
-            number,
-            score,
-            answer,
-            isCorrect,
-<<<<<<< HEAD
-=======
-            selectedOption,
->>>>>>> ac66a4e32439ef67500856ee1c71780c680a8fe8
-            option,
-        },
+        { quizData, status, number, score, answer, isCorrect, option },
         dispatch,
     ] = useReducer(reducer, {
         quizData: soal,
