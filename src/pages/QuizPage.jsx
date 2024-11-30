@@ -31,6 +31,7 @@ export default function QuizPage() {
                     answer: "",
                     option: "",
                     score: state.isCorrect ? state.score + 1 : state.score,
+                    isCorrect: false,
                 };
             case "setOption": {
                 const isCorrect = state.answer === action.payload;
