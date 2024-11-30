@@ -14,25 +14,477 @@
         },
         {
             "id": 2,
-            "question": "Apa itu CSS?",
+            "question": "Apa fungsi dari tag <head> dalam HTML?",
             "options": [
-                "Cascading Style Sheet",
-                "Cascading Style Script",
-                "Cascading Style Syntax",
-                "Cascading Style Structure"
+                "Untuk mendefinisikan struktur konten utama",
+                "Untuk mendefinisikan metadata dan pengaturan halaman",
+                "Untuk menampilkan gambar",
+                "Untuk menampilkan teks"
             ],
-            "answer": "Cascading Style Sheet"
+            "answer": "Untuk mendefinisikan metadata dan pengaturan halaman"
         },
         {
             "id": 3,
-            "question": "Apa itu JS?",
-            "options": [
-                "JavaScript",
-                "Java Stylesheet",
-                "Java Specification",
-                "Java Scripting"
-            ],
+            "question": "Bahasa pemrograman apa yang digunakan untuk menambahkan interaktivitas pada halaman web?",
+            "options": ["Python", "HTML", "JavaScript", "CSS"],
             "answer": "JavaScript"
+        },
+        {
+            "id": 4,
+            "question": "Apa itu CSS?",
+            "options": [
+                "Cascading Style Sheets",
+                "Cascading Style Script",
+                "Creative Style Sheets",
+                "Cascading Style Syntax"
+            ],
+            "answer": "Cascading Style Sheets"
+        },
+        {
+            "id": 5,
+            "question": "Apa tujuan utama penggunaan CSS?",
+            "options": [
+                "Mengatur struktur HTML",
+                "Mendeklarasikan variabel",
+                "Mengatur tampilan dan layout halaman web",
+                "Menulis algoritma"
+            ],
+            "answer": "Mengatur tampilan dan layout halaman web"
+        },
+        {
+            "id": 6,
+            "question": "Tag mana yang digunakan untuk membuat daftar tidak terurut (bulleted list) di HTML?",
+            "options": ["<ul>", "<ol>", "<li>", "<dl>"],
+            "answer": "<ul>"
+        },
+        {
+            "id": 7,
+            "question": "Apa fungsi dari tag <img> dalam HTML?",
+            "options": [
+                "Menampilkan gambar",
+                "Menampilkan teks",
+                "Membuat link",
+                "Membuat tabel"
+            ],
+            "answer": "Menampilkan gambar"
+        },
+        {
+            "id": 8,
+            "question": "Apa itu Python?",
+            "options": [
+                "Bahasa pemrograman berbasis markup",
+                "Bahasa pemrograman berbasis objek",
+                "Bahasa pemrograman berbasis logika",
+                "Bahasa pemrograman berbasis teks"
+            ],
+            "answer": "Bahasa pemrograman berbasis objek"
+        },
+        {
+            "id": 9,
+            "question": "Fungsi apa yang digunakan untuk mencetak output ke layar di Python?",
+            "options": ["echo()", "print()", "output()", "console.log()"],
+            "answer": "print()"
+        },
+        {
+            "id": 10,
+            "question": "Apa itu variabel dalam pemrograman?",
+            "options": [
+                "Tempat penyimpanan data sementara",
+                "Tempat penyimpanan data tetap",
+                "Fungsi untuk mencetak output",
+                "Bahasa untuk menulis algoritma"
+            ],
+            "answer": "Tempat penyimpanan data sementara"
+        },
+        {
+            "id": 11,
+            "question": "Apa itu loop dalam pemrograman?",
+            "options": [
+                "Mengulang perintah atau blok kode berkali-kali",
+                "Menjalankan satu perintah sekali saja",
+                "Membaca input dari pengguna",
+                "Menyimpan data dalam variabel"
+            ],
+            "answer": "Mengulang perintah atau blok kode berkali-kali"
+        },
+        {
+            "id": 12,
+            "question": "Apa yang dimaksud dengan array dalam pemrograman?",
+            "options": [
+                "Tipe data yang menyimpan satu nilai saja",
+                "Tipe data yang menyimpan banyak nilai dalam satu variabel",
+                "Fungsi untuk membaca data",
+                "Struktur untuk menyimpan objek"
+            ],
+            "answer": "Tipe data yang menyimpan banyak nilai dalam satu variabel"
+        },
+        {
+            "id": 13,
+            "question": "Apa itu JavaScript?",
+            "options": [
+                "Bahasa pemrograman untuk server-side",
+                "Bahasa pemrograman untuk client-side",
+                "Bahasa pemrograman untuk mobile apps",
+                "Bahasa markup untuk web"
+            ],
+            "answer": "Bahasa pemrograman untuk client-side"
+        },
+        {
+            "id": 14,
+            "question": "Tag HTML apa yang digunakan untuk membuat hyperlink?",
+            "options": ["<a>", "<link>", "<href>", "<button>"],
+            "answer": "<a>"
+        },
+        {
+            "id": 15,
+            "question": "Apa itu debugging?",
+            "options": [
+                "Proses mencari dan memperbaiki bug dalam kode",
+                "Proses menulis kode baru",
+                "Proses membuat desain aplikasi",
+                "Proses menghapus file dalam program"
+            ],
+            "answer": "Proses mencari dan memperbaiki bug dalam kode"
+        },
+        {
+            "id": 16,
+            "question": "Apa itu fungsi dalam pemrograman?",
+            "options": [
+                "Blok kode yang dapat dipanggil untuk melakukan tugas tertentu",
+                "Tempat untuk menyimpan data",
+                "Proses untuk menampilkan output",
+                "Tipe data yang menyimpan beberapa nilai"
+            ],
+            "answer": "Blok kode yang dapat dipanggil untuk melakukan tugas tertentu"
+        },
+        {
+            "id": 17,
+            "question": "Bagaimana cara mendeklarasikan variabel di Python?",
+            "options": ["var x = 10", "x = 10", "let x = 10", "declare x = 10"],
+            "answer": "x = 10"
+        },
+        {
+            "id": 18,
+            "question": "Fungsi apa yang digunakan untuk menerima input dari pengguna di Python?",
+            "options": ["input()", "scan()", "read()", "get()"],
+            "answer": "input()"
+        },
+        {
+            "id": 19,
+            "question": "Apa itu HTML5?",
+            "options": [
+                "Versi terbaru dari HTML yang mendukung elemen multimedia",
+                "Bahasa pemrograman untuk aplikasi mobile",
+                "Bahasa untuk membuat aplikasi desktop",
+                "Sebuah framework untuk pengembangan web"
+            ],
+            "answer": "Versi terbaru dari HTML yang mendukung elemen multimedia"
+        },
+        {
+            "id": 20,
+            "question": "Apa itu Git?",
+            "options": [
+                "Sistem manajemen versi untuk kode sumber",
+                "Bahasa pemrograman untuk aplikasi web",
+                "Framework untuk pengembangan aplikasi",
+                "Editor teks untuk pemrograman"
+            ],
+            "answer": "Sistem manajemen versi untuk kode sumber"
+        },
+        {
+            "id": 21,
+            "question": "Apakah yang dimaksud dengan framework dalam pemrograman?",
+            "options": [
+                "Kumpulan pustaka dan tools untuk mempermudah pengembangan aplikasi",
+                "Bahasa pemrograman khusus untuk aplikasi web",
+                "Editor teks untuk menulis kode",
+                "Metode pengujian aplikasi"
+            ],
+            "answer": "Kumpulan pustaka dan tools untuk mempermudah pengembangan aplikasi"
+        },
+        {
+            "id": 22,
+            "question": "Tag HTML mana yang digunakan untuk membuat tabel?",
+            "options": ["<table>", "<form>", "<div>", "<section>"],
+            "answer": "<table>"
+        },
+        {
+            "id": 23,
+            "question": "Apa itu API dalam pemrograman?",
+            "options": [
+                "Antarmuka untuk memungkinkan komunikasi antar aplikasi",
+                "Bahasa untuk menulis kode",
+                "Alat untuk men-deploy aplikasi",
+                "Fungsi untuk menghitung angka"
+            ],
+            "answer": "Antarmuka untuk memungkinkan komunikasi antar aplikasi"
+        },
+        {
+            "id": 24,
+            "question": "Apa itu SQL?",
+            "options": [
+                "Bahasa untuk mengelola dan mengakses data dalam database",
+                "Bahasa pemrograman untuk pengembangan aplikasi web",
+                "Bahasa untuk memformat tampilan halaman web",
+                "Bahasa untuk membuat server"
+            ],
+            "answer": "Bahasa untuk mengelola dan mengakses data dalam database"
+        },
+        {
+            "id": 25,
+            "question": "Tag HTML mana yang digunakan untuk menampilkan paragraf?",
+            "options": ["<p>", "<div>", "<section>", "<article>"],
+            "answer": "<p>"
+        },
+        {
+            "id": 26,
+            "question": "Apa itu responsive design dalam pengembangan web?",
+            "options": [
+                "Desain yang dapat menyesuaikan tampilan di berbagai perangkat",
+                "Desain yang hanya dapat dilihat di desktop",
+                "Desain yang hanya dapat digunakan untuk aplikasi mobile",
+                "Desain untuk halaman statis"
+            ],
+            "answer": "Desain yang dapat menyesuaikan tampilan di berbagai perangkat"
+        },
+        {
+            "id": 27,
+            "question": "Apa itu Java?",
+            "options": [
+                "Bahasa pemrograman berbasis objek yang dapat dijalankan di berbagai platform",
+                "Bahasa markup untuk aplikasi web",
+                "Bahasa untuk membuat aplikasi mobile",
+                "Bahasa scripting untuk backend"
+            ],
+            "answer": "Bahasa pemrograman berbasis objek yang dapat dijalankan di berbagai platform"
+        },
+        {
+            "id": 28,
+            "question": "Apa yang dimaksud dengan error dalam pemrograman?",
+            "options": [
+                "Kesalahan dalam menulis kode yang menyebabkan program tidak berfungsi dengan baik",
+                "Proses debugging",
+                "Proses menulis dokumentasi",
+                "Jenis algoritma"
+            ],
+            "answer": "Kesalahan dalam menulis kode yang menyebabkan program tidak berfungsi dengan baik"
+        },
+        {
+            "id": 29,
+            "question": "Apa itu inheritance dalam pemrograman berorientasi objek?",
+            "options": [
+                "Mekanisme dimana sebuah kelas dapat mewarisi sifat dari kelas lain",
+                "Proses menghapus objek",
+                "Proses menambah elemen baru pada array",
+                "Metode untuk menampilkan output"
+            ],
+            "answer": "Mekanisme dimana sebuah kelas dapat mewarisi sifat dari kelas lain"
+        },
+        {
+            "id": 30,
+            "question": "Apa yang dimaksud dengan encapsulation dalam pemrograman berorientasi objek?",
+            "options": [
+                "Menyembunyikan implementasi internal dan hanya menunjukkan antarmuka",
+                "Membuat objek baru",
+                "Menyimpan data di database",
+                "Mengirimkan data ke server"
+            ],
+            "answer": "Menyembunyikan implementasi internal dan hanya menunjukkan antarmuka"
+        },
+        {
+            "id": 31,
+            "question": "Apa itu Python list?",
+            "options": [
+                "Struktur data yang digunakan untuk menyimpan koleksi item",
+                "Tipe data yang menyimpan satu nilai saja",
+                "Proses mengubah tipe data",
+                "Salah satu tipe data numerik"
+            ],
+            "answer": "Struktur data yang digunakan untuk menyimpan koleksi item"
+        },
+        {
+            "id": 32,
+            "question": "Apa itu exception dalam pemrograman?",
+            "options": [
+                "Kesalahan yang terjadi saat program dijalankan",
+                "Fungsi untuk mengurutkan data",
+                "Metode untuk mengolah string",
+                "Struktur data untuk menyimpan data terurut"
+            ],
+            "answer": "Kesalahan yang terjadi saat program dijalankan"
+        },
+        {
+            "id": 33,
+            "question": "Fungsi untuk menghitung panjang string di Python adalah...",
+            "options": ["len()", "count()", "size()", "length()"],
+            "answer": "len()"
+        },
+        {
+            "id": 34,
+            "question": "Dalam CSS, properti untuk mengubah warna latar belakang adalah...",
+            "options": [
+                "background-color",
+                "color",
+                "bgcolor",
+                "background-image"
+            ],
+            "answer": "background-color"
+        },
+        {
+            "id": 35,
+            "question": "Fungsi dalam JavaScript yang digunakan untuk mengambil input dari pengguna adalah...",
+            "options": ["prompt()", "input()", "read()", "scan()"],
+            "answer": "prompt()"
+        },
+        {
+            "id": 36,
+            "question": "Apa itu recursive function dalam pemrograman?",
+            "options": [
+                "Fungsi yang memanggil dirinya sendiri",
+                "Fungsi untuk menampilkan data",
+                "Fungsi yang mengakses file",
+                "Fungsi untuk menghitung angka"
+            ],
+            "answer": "Fungsi yang memanggil dirinya sendiri"
+        },
+        {
+            "id": 37,
+            "question": "Apa itu while loop dalam pemrograman?",
+            "options": [
+                "Loop yang berulang selama kondisi tertentu terpenuhi",
+                "Loop yang berulang sebanyak jumlah tertentu",
+                "Loop yang berhenti jika kondisi tidak terpenuhi",
+                "Loop untuk membaca input"
+            ],
+            "answer": "Loop yang berulang selama kondisi tertentu terpenuhi"
+        },
+        {
+            "id": 38,
+            "question": "Apa itu JSON dalam pengembangan web?",
+            "options": [
+                "Format data untuk pertukaran data antar aplikasi",
+                "Bahasa pemrograman untuk aplikasi web",
+                "Format gambar untuk aplikasi",
+                "Metode pengelolaan database"
+            ],
+            "answer": "Format data untuk pertukaran data antar aplikasi"
+        },
+        {
+            "id": 39,
+            "question": "Apa itu server dalam konteks pengembangan web?",
+            "options": [
+                "Komputer yang menyimpan data dan memberikan layanan kepada client",
+                "Alat untuk menampilkan halaman web",
+                "Protokol jaringan",
+                "Bahasa pemrograman"
+            ],
+            "answer": "Komputer yang menyimpan data dan memberikan layanan kepada client"
+        },
+        {
+            "id": 40,
+            "question": "Fungsi yang digunakan untuk membuat array di JavaScript adalah...",
+            "options": ["Array()", "new Array()", "array()", "[]"],
+            "answer": "Array()"
+        },
+        {
+            "id": 41,
+            "question": "Apa yang dimaksud dengan break dalam pemrograman?",
+            "options": [
+                "Perintah untuk keluar dari loop atau switch",
+                "Perintah untuk melanjutkan loop",
+                "Perintah untuk memulai loop",
+                "Perintah untuk menghentikan eksekusi program"
+            ],
+            "answer": "Perintah untuk keluar dari loop atau switch"
+        },
+        {
+            "id": 42,
+            "question": "Apa yang dimaksud dengan object dalam pemrograman berorientasi objek?",
+            "options": [
+                "Entitas yang menyimpan data dan fungsi",
+                "Tipe data untuk angka",
+                "Proses pengolahan data",
+                "Struktur data untuk menyimpan data terurut"
+            ],
+            "answer": "Entitas yang menyimpan data dan fungsi"
+        },
+        {
+            "id": 43,
+            "question": "Apa itu command line interface (CLI)?",
+            "options": [
+                "Antarmuka berbasis teks untuk menjalankan perintah komputer",
+                "Editor teks untuk menulis kode",
+                "Alat untuk mendesain aplikasi",
+                "Metode untuk mengatur database"
+            ],
+            "answer": "Antarmuka berbasis teks untuk menjalankan perintah komputer"
+        },
+        {
+            "id": 44,
+            "question": "Tag HTML mana yang digunakan untuk membuat form?",
+            "options": ["<form>", "<input>", "<button>", "<textarea>"],
+            "answer": "<form>"
+        },
+        {
+            "id": 45,
+            "question": "Apa itu framework Django?",
+            "options": [
+                "Framework pengembangan web berbasis Python",
+                "Framework untuk pengembangan aplikasi desktop",
+                "Framework untuk aplikasi mobile",
+                "Bahasa pemrograman untuk aplikasi web"
+            ],
+            "answer": "Framework pengembangan web berbasis Python"
+        },
+        {
+            "id": 46,
+            "question": "Apa itu URL?",
+            "options": [
+                "Alamat yang digunakan untuk mengakses situs web",
+                "Alamat email pengguna",
+                "Format file untuk gambar",
+                "Tipe data untuk teks"
+            ],
+            "answer": "Alamat yang digunakan untuk mengakses situs web"
+        },
+        {
+            "id": 47,
+            "question": "Fungsi untuk menambahkan elemen baru ke dalam array di JavaScript adalah...",
+            "options": ["push()", "pop()", "shift()", "unshift()"],
+            "answer": "push()"
+        },
+        {
+            "id": 48,
+            "question": "Apa itu algorithm?",
+            "options": [
+                "Langkah-langkah terstruktur untuk menyelesaikan masalah",
+                "Bahasa untuk menulis kode",
+                "Tipe data numerik",
+                "Metode untuk mengatur layout halaman web"
+            ],
+            "answer": "Langkah-langkah terstruktur untuk menyelesaikan masalah"
+        },
+        {
+            "id": 49,
+            "question": "Apa itu IDE?",
+            "options": [
+                "Lingkungan pengembangan terpadu",
+                "Editor teks untuk kode",
+                "Bahasa pemrograman",
+                "Sistem operasi"
+            ],
+            "answer": "Lingkungan pengembangan terpadu"
+        },
+        {
+            "id": 50,
+            "question": "Apa itu version control?",
+            "options": [
+                "Sistem untuk melacak perubahan kode",
+                "Alat untuk mendesain aplikasi",
+                "Bahasa untuk pengolahan data",
+                "Framework untuk pengembangan aplikasi"
+            ],
+            "answer": "Sistem untuk melacak perubahan kode"
         }
     ]
 }
