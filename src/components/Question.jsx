@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import NextButton from "./NextButton";
 import Options from "./Options";
 
-export default function Question({ dispatch, questionData, answer, option }) {
+export default function Question({ dispatch, questionData, answer, option, quizDataLength, number }) {
     useEffect(() => {
         dispatch({ type: "setAnswer", payload: questionData.answer, });
     }, [dispatch, questionData.answer]);
@@ -17,7 +17,7 @@ export default function Question({ dispatch, questionData, answer, option }) {
                     answer={answer}
                     option={option}
                 />
-                <NextButton dispatch={dispatch} />
+                <NextButton dispatch={dispatch} quizDataLength={quizDataLength} number={number} option={option}/>
             </div>
     );
 }

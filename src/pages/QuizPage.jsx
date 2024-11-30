@@ -3,6 +3,7 @@ import StartScreen from "../components/StartScreen";
 import soal from "../data/soal.json";
 import Question from "../components/Question";
 import Info from "../components/Info";
+import Finish from "../components/Finish";
 
 export default function QuizPage() {
     const [
@@ -30,7 +31,6 @@ export default function QuizPage() {
                     number: state.number + 1,
                     answer: "",
                     option: "",
-                    score: state.isCorrect ? state.score + 1 : state.score,
                     isCorrect: false,
                 };
             case "setOption": {
@@ -39,8 +39,13 @@ export default function QuizPage() {
                     ...state,
                     option: action.payload,
                     isCorrect: isCorrect,
+                    score: isCorrect ? state.score + 1 : state.score,
                 };
             }
+            case "finish":
+                return { ...state, status: "finish" };
+            default:
+                throw new Error("Action unknown");
         }
     }
 
@@ -50,16 +55,23 @@ export default function QuizPage() {
         <div className="flex w-full h-screen justify-center items-center bg-slate-950">
             {status === "idle" && <StartScreen dispatch={dispatch} />}
             {status === "start" && (
-                <div className="w-full  m-2">
-                    <Info number={number} score={score} quizDataLength={quizDataLength}/>
+                <div className="w-full m-2">
+                    <Info
+                        number={number}
+                        score={score}
+                        quizDataLength={quizDataLength}
+                    />
                     <Question
                         dispatch={dispatch}
                         questionData={quizData.soal[number]}
                         answer={answer}
                         option={option}
+                        quizDataLength={quizDataLength}
+                        number={number}
                     />
                 </div>
             )}
+            {status === "finish" && <Finish score={score} />}
         </div>
     );
 }
