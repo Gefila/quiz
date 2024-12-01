@@ -1,6 +1,6 @@
-import { useReducer, useState } from "react";
+import { useEffect, useReducer } from "react";
 import StartScreen from "../components/StartScreen";
-import soal from "../data/soal.json";
+import dataSoal from "../data/soal.json";
 import Question from "../components/Question";
 import Info from "../components/Info";
 import Finish from "../components/Finish";
@@ -10,7 +10,7 @@ export default function QuizPage() {
         { quizData, status, number, score, answer, isCorrect, option },
         dispatch,
     ] = useReducer(reducer, {
-        quizData: soal,
+        quizData: dataSoal,
         status: "idle",
         number: 0,
         answer: "",
@@ -21,6 +21,8 @@ export default function QuizPage() {
 
     function reducer(state, action) {
         switch (action.type) {
+            case "setQuizData":
+                return { ...state, quizData: action.payload };
             case "start":
                 return { ...state, status: "start" };
             case "setAnswer":
@@ -50,6 +52,21 @@ export default function QuizPage() {
     }
 
     const quizDataLength = quizData.soal.length;
+
+    useEffect(() => {
+        const randomSoal = dataSoal.soal
+            .slice()
+            .sort(() => Math.random() - 0.5);
+        const randomOption = randomSoal.map((item) => {
+            return {
+                ...item,
+                options: item.options.sort(() => Math.random() - 0.5),
+            };
+        });
+
+        const soal = { ...dataSoal, soal: randomOption };
+        dispatch({ type: "setQuizData", payload: soal });
+    }, []);
 
     return (
         <div className="flex w-full h-screen justify-center items-center bg-slate-950">

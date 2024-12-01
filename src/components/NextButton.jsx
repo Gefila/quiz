@@ -13,7 +13,7 @@ export default function NextButton({ dispatch, quizDataLength, number, option })
 
     return (
         <button
-            className="btn btn-neutral bg-green-800 text-white self-end mt-3"
+            className="btn bg-blue-900 text-white self-end mt-3"
             onClick={() => dispatch({ type: "next" })}
             disabled={!option}
         >
