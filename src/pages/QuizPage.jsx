@@ -46,6 +46,26 @@ export default function QuizPage() {
             }
             case "finish":
                 return { ...state, status: "finish" };
+            case "restart":
+                return {
+                    ...state,
+                    status: "start",
+                    number: 0,
+                    score: 0,
+                    answer: "",
+                    option: "",
+                    isCorrect: false,
+                };
+            case "back":
+                return {
+                    ...state,
+                    number: 0,
+                    score: 0,
+                    answer: "",
+                    option: "",
+                    isCorrect: false,
+                    status: "idle",
+                };
             default:
                 throw new Error("Action unknown");
         }
@@ -55,7 +75,7 @@ export default function QuizPage() {
 
     useEffect(() => {
         const randomSoal = dataSoal.soal
-            .slice()
+            .slice(0, 5)
             .sort(() => Math.random() - 0.5);
         const randomOption = randomSoal.map((item) => {
             return {
@@ -88,7 +108,9 @@ export default function QuizPage() {
                     />
                 </div>
             )}
-            {status === "finish" && <Finish score={score} />}
+            {status === "finish" && (
+                <Finish score={score} dispatch={dispatch} />
+            )}
         </div>
     );
 }
