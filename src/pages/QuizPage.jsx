@@ -74,8 +74,9 @@ export default function QuizPage() {
     const quizDataLength = quizData.soal.length;
 
     useEffect(() => {
+        if (status !== "start") return;
         const randomSoal = dataSoal.soal
-            .slice(0, 5)
+            .slice()
             .sort(() => Math.random() - 0.5);
         const randomOption = randomSoal.map((item) => {
             return {
@@ -86,7 +87,7 @@ export default function QuizPage() {
 
         const soal = { ...dataSoal, soal: randomOption };
         dispatch({ type: "setQuizData", payload: soal });
-    }, []);
+    }, [status]);
 
     return (
         <div className="flex w-full h-screen justify-center items-center bg-slate-950">
@@ -109,7 +110,7 @@ export default function QuizPage() {
                 </div>
             )}
             {status === "finish" && (
-                <Finish score={score} dispatch={dispatch} />
+                <Finish score={score} dispatch={dispatch} quizDataLength={quizDataLength}/>
             )}
         </div>
     );
