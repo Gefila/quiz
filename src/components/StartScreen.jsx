@@ -1,9 +1,5 @@
-import { useState } from "react";
 
-export default function StartScreen({ dispatch }) {
-    const [name, setName] = useState("");
-    const [soal, setSoal] = useState("Pilih Salah Satu");
-
+export default function StartScreen({ dispatch, daftarSoal, name, judulSoal }) {
     return (
         <div className="flex flex-col items-center bg-slate-900 p-5 rounded-lg gap-3">
             <h1 className="text-white font-bold text-2xl">
@@ -15,17 +11,13 @@ export default function StartScreen({ dispatch }) {
                 </div>
                 <select
                     className="select select-bordered"
-                    value={soal}
-                    onChange={(e) => setSoal(e.target.value)}
+                    value={judulSoal}
+                    onChange={(e) => dispatch({type:"setSoal", payload:e.target.value})}
                 >
                     <option disabled>Pilih Salah Satu</option>
-                    <option>KOMAS TI5A - 50 Soal (Etika Sosmed)</option>
-                    <option>
-                        KOMAS TI5A - 20 Soal (Komputer Dan Pekerjaan)
-                    </option>
-                    <option>KOMAS TI5A - 50 Soal (UAS) Full</option>
-                    <option>KOMAS TI5A - 50 Soal (UAS) Part1</option>
-                    <option>KOMAS TI5A - 50 Soal (UAS) Part2</option>
+                    {daftarSoal.map((soal, index) => (
+                        <option key={index}>{soal}</option>
+                    ))}
                 </select>
             </label>
             <label className="form-control w-full max-w-xs">
@@ -37,7 +29,7 @@ export default function StartScreen({ dispatch }) {
                     placeholder="Type here"
                     className="input input-bordered w-full max-w-xs"
                     value={name}
-                    onChange={(e) => setName(e.target.value)}
+                    onChange={(e) => dispatch({type:"setName", payload:e.target.value})}
                 />
             </label>
 
@@ -60,7 +52,7 @@ export default function StartScreen({ dispatch }) {
                     </h3>
                     <p className="py-4">
                         Anda akan memulai quiz dengan soal{" "}
-                        <span className="font-bold">{soal}</span>
+                        <span className="font-bold">{judulSoal}</span>
                     </p>
                     <div className="modal-action">
                         <form method="dialog">
