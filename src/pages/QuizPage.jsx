@@ -97,21 +97,31 @@ export default function QuizPage() {
 
     //const quizDataLength = quizData.soal.length;
 
-    const findJudulSoal = dataSoal.find((judul) => judul.kelas === judulSoal);
+    const fisherYatesShuffle = (array) => {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]]; // Swap
+        }
+    };
 
     useEffect(() => {
-        if (status !== "start") return;
-        
-        const randomSoal = findJudulSoal.soal
-            .slice()
-            .sort(() => Math.random() - 0.5);
+        const findJudulSoal = dataSoal.find(
+            (judul) => judul.kelas === judulSoal
+        );
+        if (status === "idle") return;
+
+        const randomSoal = [...findJudulSoal.soal];
+        fisherYatesShuffle(randomSoal);
+
         const randomOption = randomSoal.map((item) => {
+            const options = [...item.options];
+            fisherYatesShuffle(options);
             return {
                 ...item,
-                options: item.options.sort(() => Math.random() - 0.5),
+                options,
             };
         });
-        console.log(randomOption)
+
         const soal = { ...findJudulSoal, soal: randomOption };
         dispatch({ type: "setQuizData", payload: soal });
         console.log(randomOption);
