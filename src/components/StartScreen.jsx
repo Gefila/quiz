@@ -12,6 +12,7 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal }) {
                 <select
                     className="select select-bordered"
                     value={judulSoal}
+                    required
                     onChange={(e) => dispatch({type:"setSoal", payload:e.target.value})}
                 >
                     <option disabled>Pilih Salah Satu</option>
@@ -30,6 +31,7 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal }) {
                     className="input input-bordered w-full max-w-xs"
                     value={name}
                     onChange={(e) => dispatch({type:"setName", payload:e.target.value})}
+                    required
                 />
             </label>
 
