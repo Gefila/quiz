@@ -1,4 +1,3 @@
-
 export default function StartScreen({ dispatch, daftarSoal, name, judulSoal }) {
     return (
         <div className="flex flex-col items-center bg-slate-900 p-5 rounded-lg gap-3">
@@ -13,7 +12,9 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal }) {
                     className="select select-bordered"
                     value={judulSoal}
                     required
-                    onChange={(e) => dispatch({type:"setSoal", payload:e.target.value})}
+                    onChange={(e) =>
+                        dispatch({ type: "setSoal", payload: e.target.value })
+                    }
                 >
                     <option disabled>Pilih Salah Satu</option>
                     {daftarSoal.map((soal, index) => (
@@ -30,7 +31,9 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal }) {
                     placeholder="Type here"
                     className="input input-bordered w-full max-w-xs"
                     value={name}
-                    onChange={(e) => dispatch({type:"setName", payload:e.target.value})}
+                    onChange={(e) =>
+                        dispatch({ type: "setName", payload: e.target.value })
+                    }
                     required
                 />
             </label>
@@ -41,6 +44,7 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal }) {
                 onClick={() =>
                     document.getElementById("my_modal_5").showModal()
                 }
+                disabled={!name || judulSoal === "Pilih Salah Satu"}
             >
                 Start Quiz
             </button>
@@ -49,9 +53,7 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal }) {
                 className="modal modal-bottom sm:modal-middle"
             >
                 <div className="modal-box">
-                    <h3 className="font-bold text-lg">
-                        Halo {name}, Apakah Anda Yakin?
-                    </h3>
+                    <h3 className="font-bold text-lg">Halo {name}</h3>
                     <p className="py-4">
                         Anda akan memulai quiz dengan soal{" "}
                         <span className="font-bold">{judulSoal}</span>
