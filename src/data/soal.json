@@ -1,6 +1,32 @@
 [
 	{
-		"kelas": "UAS KOMAS 1-60",
+		"kelas": "UAS KOMPUTER DAN MASYARAKAT",
+		"tipeSoal": [
+			{
+				"id": 1,
+				"tipe": "Semua Soal",
+				"jumlahSoal": {
+					"dari": 1,
+					"sampai": 999
+				}
+			},
+			{
+				"id": 2,
+				"tipe": "Soal 1-10",
+				"jumlahSoal": {
+					"dari": 1,
+					"sampai": 10
+				}
+			},
+			{
+				"id": 3,
+				"tipe": "Soal 11-20",
+				"jumlahSoal": {
+					"dari": 11,
+					"sampai": 20
+				}
+			}
+		],
 		"soal": [
 			{
 				"id": 1,
@@ -121,6 +147,130 @@
 					"Mengembangkan perangkat lunak baru"
 				],
 				"answer": "Mencuri informasi dan merusak data"
+			},
+			{
+				"id": 11,
+				"question": "Apa dampak utama dari kejahatan komputer bagi masyarakat?",
+				"options": [
+					"Peningkatan kualitas layanan publik",
+					"Kebocoran informasi pribadi dan kehilangan uang",
+					"Penurunan harga perangkat lunak legal",
+					"Pengurangan kasus phishing di dunia maya",
+					"Peningkatan data informasi"
+				],
+				"answer": "Kebocoran informasi pribadi dan kehilangan uang"
+			},
+			{
+				"id": 12,
+				"question": "Apa yang dimaksud dari hacker?",
+				"options": [
+					"Sekumpulan orang yang bermain komputer dengan keahlian mereka masing-masing? sesuai role",
+					"Sekelompok ahli komputer yang mengadakan percobaan teknologi baru, yang menerobos ke dalam sistem komputer tanpa otorisasi/wewenang",
+					"sekelompok ahli komputer yang saling berkompetensi? mencapai level tertentu",
+					"seorang ahli komputer yang menyembunyikan identitasnya? (anonym)",
+					"seorang yang ahli komputer yang memperbaiki kesalahan dalam komputer?"
+				],
+				"answer": "Sekelompok ahli komputer yang mengadakan percobaan teknologi baru, yang menerobos ke dalam sistem komputer tanpa otorisasi/wewenang"
+			},
+			{
+				"id": 13,
+				"question": "Manakah di bawah ini yang bukan merupakan dampak negatif dari kejahatan komputer terhadap masyarakat?",
+				"options": [
+					"Kehilangan uang",
+					"Kebocoran informasi pribadi",
+					"Meningkatnya kesadaran masyarakat tentang pentingnya keamanan digital",
+					"Gangguan pada layanan publik seperti sistem transportasi atau komunikasi",
+					"Terganggunya notifikasi/pengingat jadwal obat ke pasien"
+				],
+				"answer": "Meningkatnya kesadaran masyarakat tentang pentingnya keamanan digital"
+			},
+			{
+				"id": 14,
+				"question": "Apakah tugas dari Badan Siber dan Sandi Negara (BSSN)?",
+				"options": [
+					"Mengelola sistem informasi dan platform teknologi nasional dengan tujuan menggantikan penggunaan sistem operasi asing di seluruh instansi pemerintah, serta memastikan pengelolaan data yang aman dengan memperkenalkan sistem enkripsi untuk seluruh transaksi negara",
+
+					"Melaksanakan keamanan siber secara efektif dan efisien dengan memanfaatkan, mengembangkan, dan mengonsolidasikan semua unsur yang terkait dengan keamanan siber",
+
+					"Melaksanakan jaringan internet yang aman dan terhubung untuk seluruh instansi pemerintahan dengan tujuan memonitor transaksi keuangan negara secara real-time untuk mencegah potensi penyalahgunaan anggaran dalam sektor publik",
+
+					"Melaksanakan dan memelihara pusat data nasional yang aman, serta memberikan pelatihan bagi instansi pemerintah terkait pengelolaan sistem informasi dan aplikasi yang mendukung operasional pemerintahan",
+
+					"Melaksanakan audit keamanan siber di seluruh sektor publik dan swasta dengan tujuan untuk mengevaluasi kerentanannya terhadap ancaman siber, serta memberikan rekomendasi untuk peningkatan sistem keamanan dan perlindungan data negara"
+				],
+				"answer": "Melaksanakan keamanan siber secara efektif dan efisien dengan memanfaatkan, mengembangkan, dan mengonsolidasikan semua unsur yang terkait dengan keamanan siber"
+			},
+			{
+				"id": 15,
+				"question": "Pemerintah Indonesia, seperti banyak negara lainnya, memiliki unit atau lembaga yang terlibat dalam keamanan siber, seperti BSSN, yang bertugas melindungi infrastruktur kritis dari ancaman dunia maya. Keamanan siber menjadi isu yang sangat penting di Indonesia karena...",
+				"options": [
+					"Melibatkan sektor teknologi informasi dan komunikasi",
+					"Dapat mengancam kestabilan ekonomi, dan sosial jika tidak dijaga",
+					"Tidak berhubungan dengan kegiatan sektor publik",
+					"Dapat diatasi tanpa melibatkan masyarakat hanya perlu saja",
+					"Dapat memenuhi kebutuhan masyarakat Indonesia dalam hal teknologi informasi"
+				],
+				"answer": "Dapat mengancam kestabilan ekonomi, dan sosial jika tidak dijaga"
+			},
+			{
+				"id": 16,
+				"question": "Apa yang dimaksud dengan \"Script Kiddie\"?",
+				"options": [
+					"Hacker yang memiliki keahlian tinggi dan pengalaman luas dalam jaringan",
+					"Individu yang menggunakan alat dan skrip yang dibuat Oleh orang Iain untuk melakukan serangan tanpa pemahaman mendalam",
+					"Hacker yang bekerja untuk lembaga pemerintah maupun swasta",
+					"Seorang programmer yang menciptakan perangkat lunak keamanan siber",
+					"Individu yang memahami sistem operasi Sisi luar dalam, sanggup mengkonfigurasi dan menyambungkan jaringan secara global"
+				],
+				"answer": "Individu yang menggunakan alat dan skrip yang dibuat Oleh orang Iain untuk melakukan serangan tanpa pemahaman mendalam"
+			},
+			{
+				"id": 17,
+				"question": "Bagaimana script kiddie biasanya bekerja?",
+				"options": [
+					"Mereka menulis script mereka sendiri dari awal dan menyasar target spesifik",
+					"Mereka hanya menggunakan browser untuk browsing internet",
+					"Mereka fokus pada pembangunan perangkat lunak keamanan",
+					"Mereka menggunakan pre-written scripts dan tools yang sudah tersedia untuk melakukan serangan",
+					"Mereka memahami sistem operasi Sisi luar dalam, sanggup mengkonfigurasi dan menyambungkan jaringan secara global"
+				],
+				"answer": "Mereka menggunakan pre-written scripts dan tools yang sudah tersedia untuk melakukan serangan"
+			},
+			{
+				"id": 18,
+				"question": "Tingkatan ilmu hacker yang cenderung menggunakan tools atau alat yang sudah ada tanpa pemahaman mendalam tentang cara kerjanya adalah",
+				"options": [
+					"Lamer, Script Kiddie",
+					"Developed Kiddie",
+					"Semi Elite",
+					"Elite",
+					"Semi Elite, Elite"
+				],
+				"answer": "Lamer, Script Kiddie"
+			},
+			{
+				"id": 19,
+				"question": "Urutan tingkatan level ilmu hacker yang benar adalah ?",
+				"options": [
+					"Lamer - Script kiddie - Developed kiddie - Semi elite - Elite",
+					"Script kiddie - Developed kiddie - Lamer - Semi elite - Elite",
+					"Lamer - Semi elite - Elite - Script kiddie - Developed kiddie",
+					"Developed kiddie - Script kiddie - Lamer - Semi elite - Elite",
+					"Developed kiddie - Lamer - Script kiddie - Semi elite - Elite"
+				],
+				"answer": "Lamer - Script kiddie - Developed kiddie - Semi elite - Elite"
+			},
+			{
+				"id": 20,
+				"question": "Mengapa banyak perusahaan mencari hacker untuk posisi keamanan siber?",
+				"options": [
+					"Karena hacker dapat merusak sistem dengan mudah",
+					"Karena hacker dapat membantu mengidentifikasi dan memperbaiki kerentanan",
+					"Karena hacker tidak memerlukan keterampilan teknis",
+					"Karena hacker dapat mengabaikan semua protokol keamanan",
+					"Karena hacker bukan cracker, jadi pasti seorang hacker berjiwa Iuhur"
+				],
+				"answer": "Karena hacker dapat membantu mengidentifikasi dan memperbaiki kerentanan"
 			}
 		]
 	}
