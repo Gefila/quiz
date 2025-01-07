@@ -1,4 +1,4 @@
-export default function StartScreen({ dispatch, daftarSoal, name, judulSoal }) {
+export default function StartScreen({ dispatch, daftarSoal, name, judulSoal, tipeSoal, daftarTipeSoal }) {
     return (
         <div className="flex flex-col items-center bg-slate-900 p-5 rounded-lg gap-3">
             <h1 className="text-white font-bold text-2xl">
@@ -20,6 +20,26 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal }) {
                     {daftarSoal.map((soal, index) => (
                         <option key={index}>{soal}</option>
                     ))}
+                </select>
+            </label>
+            <label className="form-control w-full max-w-xs">
+                <div className="label">
+                    <span className="label-text">Tipe Soal</span>
+                </div>
+                <select
+                    className="select select-bordered"
+                    value={tipeSoal}
+                    required
+                    onChange={(e) =>{
+                        dispatch({ type: "setTipeSoal", payload: e.target.value })                    }
+                    }
+                >
+                    <option disabled>Pilih Salah Satu</option>
+                    {
+                        daftarTipeSoal.map((tipe, index) => (
+                            <option key={index}>{tipe.tipe}</option>
+                        ))
+                    }
                 </select>
             </label>
             <label className="form-control w-full max-w-xs">
