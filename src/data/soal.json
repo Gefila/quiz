@@ -1,133 +1,127 @@
 [
-    {
-        "kelas": "HTML Dasar",
-        "soal": [
-            {
-                "id": 1,
-                "question": "Apa itu HTML?",
-                "options": [
-                    "Hyper Text Markup Language",
-                    "Hyper Text Markup Link",
-                    "Hyper Text Markup List",
-                    "Hyper Text Markup Logo"
-                ],
-                "answer": "Hyper Text Markup Language"
-            },
-            {
-                "id": 2,
-                "question": "Apa fungsi dari tag <head> dalam HTML?",
-                "options": [
-                    "Untuk mendefinisikan struktur konten utama",
-                    "Untuk mendefinisikan metadata dan pengaturan halaman",
-                    "Untuk menampilkan gambar",
-                    "Untuk menampilkan teks"
-                ],
-                "answer": "Untuk mendefinisikan metadata dan pengaturan halaman"
-            },
-            {
-                "id": 3,
-                "question": "Bahasa pemrograman apa yang digunakan untuk menambahkan interaktivitas pada halaman web?",
-                "options": ["Python", "HTML", "JavaScript", "CSS"],
-                "answer": "JavaScript"
-            }
-        ]
-    },
-    {
-        "kelas": "CSS Dasar",
-        "soal": [
-            {
-                "id": 1,
-                "question": "Apa itu CSS?",
-                "options": [
-                    "Cascading Style Sheet",
-                    "Cascading Style Script",
-                    "Cascading Style Slide",
-                    "Cascading Style Set"
-                ],
-                "answer": "Cascading Style Sheet"
-            },
-            {
-                "id": 2,
-                "question": "Apa fungsi dari CSS?",
-                "options": [
-                    "Untuk mendefinisikan struktur konten utama",
-                    "Untuk mendefinisikan metadata dan pengaturan halaman",
-                    "Untuk menampilkan gambar",
-                    "Untuk mendefinisikan tata letak halaman"
-                ],
-                "answer": "Untuk mendefinisikan tata letak halaman"
-            },
-            {
-                "id": 3,
-                "question": "Apa fungsi dari tag <style> dalam HTML?",
-                "options": [
-                    "Untuk mendefinisikan struktur konten utama",
-                    "Untuk mendefinisikan metadata dan pengaturan halaman",
-                    "Untuk menampilkan gambar",
-                    "Untuk mendefinisikan tata letak halaman"
-                ],
-                "answer": "Untuk mendefinisikan tata letak halaman"
-            }
-        ]
-    },
-    {
-        "kelas": "JavaScript Dasar",
-        "soal": [
-            {
-                "id": 1,
-                "question": "Apa itu JavaScript?",
-                "options": [
-                    "Bahasa pemrograman yang digunakan untuk menambahkan interaktivitas pada halaman web",
-                    "Bahasa pemrograman yang digunakan untuk mendefinisikan struktur konten utama",
-                    "Bahasa pemrograman yang digunakan untuk mendefinisikan metadata dan pengaturan halaman",
-                    "Bahasa pemrograman yang digunakan untuk menampilkan gambar"
-                ],
-                "answer": "Bahasa pemrograman yang digunakan untuk menambahkan interaktivitas pada halaman web"
-            },
-            {
-                "id": 2,
-                "question": "Apa fungsi dari tag <script> dalam HTML?",
-                "options": [
-                    "Untuk mendefinisikan struktur konten utama",
-                    "Untuk mendefinisikan metadata dan pengaturan halaman",
-                    "Untuk menampilkan gambar",
-                    "Untuk menambahkan interaktivitas pada halaman web"
-                ],
-                "answer": "Untuk menambahkan interaktivitas pada halaman web"
-            },
-            {
-                "id": 3,
-                "question": "Apa fungsi dari console.log() dalam JavaScript?",
-                "options": [
-                    "Untuk menampilkan pesan error",
-                    "Untuk menampilkan pesan sukses",
-                    "Untuk menampilkan pesan pada console",
-                    "Untuk menampilkan pesan pada halaman web"
-                ],
-                "answer": "Untuk menampilkan pesan pada console"
-            },
-            {
-                "id": 4,
-                "question": "Apa fungsi dari alert() dalam JavaScript?",
-                "options": [
-                    "Untuk menampilkan pesan error",
-                    "Untuk menampilkan pesan sukses",
-                    "Untuk menampilkan pesan pada console",
-                    "Untuk menampilkan pesan pada halaman web"
-                ],
-                "answer": "Untuk menampilkan pesan pada halaman web"
-            },
-            {
-                "id": 5,
-                "question": "Apa fungsi dari prompt() dalam JavaScript?",
-                "options": [
-                    "Untuk menampilkan pesan error",
-                    "Untuk menampilkan pesan sukses",
-                    "Untuk menampilkan pesan pada console",
-                    "Untuk menampilkan pesan pada halaman web"
-                ],
-                "answer": "Untuk menampilkan pesan pada halaman web"
-            }
-        ]
-    }
+	{
+		"kelas": "UAS KOMAS 1-60",
+		"soal": [
+			{
+				"id": 1,
+				"question": "Beberapa waktu lalu di-lndonesia sempat dihebohkan dengan penyerangan Oleh hacker Bjorka. Namun sampai sekarang kebanyakan yang ditangkap ternyata bukanlah sosok Bjorka yang asli (salah tangkap). Mengapa Kepolisian Indonesia kesulitan menangkap Hacker Bjorka?",
+				"options": [
+					"Polisi Indonesia kurang hebat dalam mencari",
+					"Hacker mempunyai backingan orang yang sangat di Indonesia",
+					"Hacker adalah kelompok bukan perorangan sehingga sulit untuk dicari",
+					"Bjorka hebat dalam tersembunyi",
+					"Bjorka hanyalah konten prank untuk pengalihan isu kenegaraan"
+				],
+				"answer": "Hacker adalah kelompok bukan perorangan sehingga sulit untuk dicari"
+			},
+			{
+				"id": 2,
+				"question": "Perhatikan poin-poin di bawah ini:\n1) Beresiko terkena ransomware / malware / adsware dan sejenisnya\n2) Hemat biaya karena gratis\n3) Melanggar hak cipta dan bisa dipidana\n4) Dapat digunakan dikomputer lain tanpa harus membeli lagi\n5) Pemasaran/promosi gratis terhadap software\n6) Data pribadi rentan dicuri\nDari di atas, mana saja yang merupakan dampak negatif penggunaan software bajakan?",
+				"options": [
+					"1), 2), dan 4)",
+					"2), 4), dan 6)",
+					"1), 3), dan 6)",
+					"1), 3), dan 4)",
+					"2), 4), dan 5)"
+				],
+				"answer": "1), 3), dan 6)"
+			},
+			{
+				"id": 3,
+				"question": "...merupakan Ciri utama Sistem komputer terkena serangan DdoS",
+				"options": [
+					"Koneksi internet menjadi sangat lambat dan komputer tidak responsif",
+					"sistem secara otomatis melakukan updating version",
+					"Pengguna tiba-tiba ter-logout dari semua akun yang sedang login",
+					"Muncul pesan Sorry, your system has been hacked by K3v1N",
+					"Monitor tiba-tiba mati sendiri"
+				],
+				"answer": "Koneksi internet menjadi sangat lambat dan komputer tidak responsif"
+			},
+			{
+				"id": 4,
+				"question": "tujuan utama dari firewall dalam komputer adalah",
+				"options": [
+					"Mempercepat koneksi internet",
+					"Melindungi komputer dari serangan api dengan dinding pelindung",
+					"Menghapus virus dari komputer",
+					"Melindungi jaringan komputer dari serangan maupun akses tidak sah",
+					"Mengelola penyimpanan data secara cloud encryption"
+				],
+				"answer": "Melindungi jaringan komputer dari serangan maupun akses tidak sah"
+			},
+			{
+				"id": 5,
+				"question": "di bawah ini merupakan ciri-ciri dari black hat hacker, kecuali...",
+				"options": [
+					"Mencari kelemahan jaringan untuk dieksploitasi demi keuntungan pribadi",
+					"Melaporkan kelemahan jaringan kepada perusahaan untuk mendapatkan imbalan",
+					"Menargetkan data sensitif untuk diperjualbelikan di dark web",
+					"Menyembunyikan identitas / anonymous",
+					"Menyelipkan malware ke dalam sistem untuk merusak target"
+				],
+				"answer": "Melaporkan kelemahan jaringan kepada perusahaan untuk mendapatkan imbalan"
+			},
+			{
+				"id": 6,
+				"question": "Perhatikan tanda-tanda berikut ini:\n1) Kapasitas baterai berkurang drastis secara tiba-tiba\n2) Suhu perangkat menjadi overheat padahal tidak melakukan pekerjaan berat (misalnya gaming)\n3) Layar smartphone retak\n4) Muncul random popup ads di layar\n5) muncul panggilan atau pesan mendadak dari nomor telpon milik orang tua\nMengacu pada informasi dari Avast Antivirus, nomor berapakah yang kemungkinan menjadi tanda-tanda sebuah Smartphone telah diretas?",
+				"options": [
+					"1), 2), dan 3)",
+					"2), 3), dan 5)",
+					"1), 2), dan 4)",
+					"1), 4), dan 5)",
+					"2), 4), dan 5)"
+				],
+				"answer": "1), 2), dan 4)"
+			},
+			{
+				"id": 7,
+				"question": "pelaku memasang access point (AP) di tempat umum menyerupai AP yang sah, seperti Kafe dengan tujuan mengelabui calon korban agar mengkoneksikan perangkat mereka ke AP pelaku. Setelah terhubung pelaku dapat melakukan remote pada perangkat mereka dan pencuri data pribadi korban, Tlndakan kriminal tersebut dapat dikategorikan sebagai?",
+				"options": [
+					"Skimming",
+					"Ransomware",
+					"Bluejacking",
+					"Wireshark",
+					"Rogue Access Point (RAP)"
+				],
+				"answer": "Rogue Access Point (RAP)"
+			},
+			{
+				"id": 8,
+				"question": "Contoh praktik pembuatan password yang baik untuk keamanan akun adalah ?",
+				"options": [
+					"Menyimpan password di penyimpanan agar tidak lupa",
+					"Tidak pernah mengganti password untuk menunjukkan pribadi yang konsisten dan berpendirian teguh",
+					"Mengganti password setiap 15 menit sekali",
+					"Membuat password yang sulit ditebak yang terdiri dari gabungan huruf kecil, huruf kapital, angka, dan simbol",
+					"Menggunakan nama yang mudah diingat dan diketahui orang Iain"
+				],
+				"answer": "Membuat password yang sulit ditebak yang terdiri dari gabungan huruf kecil, huruf kapital, angka, dan simbol"
+			},
+			{
+				"id": 9,
+				"question": "Apa perbedaan utama antara hacker dan cracker?",
+				"options": [
+					"Hacker bertujuan merusak sistem, sedangkan cracker membantu meningkatkan keamanan.",
+					"Hacker mengeksplorasi celah keamanan tanpa merusak, sedangkan cracker merusak dan mengambil keuntungan dari sistem.",
+					"Hacker bekerja untuk pemerintah, sedangkan cracker bekerja secara individu.",
+					"Hacker selalu menggunakan perangkat keras, sedangkan cracker hanya menggunakan perangkat lunak",
+					"Hacker bekerja untuk mencari uang secara legal, sedangkan cracker menggunakan cara yang tidak benar"
+				],
+				"answer": "Hacker mengeksplorasi celah keamanan tanpa merusak, sedangkan cracker merusak dan mengambil keuntungan dari sistem."
+			},
+			{
+				"id": 10,
+				"question": "Apa yang biasanya dilakukan oleh seorang cracker?",
+				"options": [
+					"Menguji keamanan sistem untuk perbaikan",
+					"Bekerja dengan pemerintah agar dapat diangkat menjadi ASN",
+					"Membantu pengguna memahami teknologi",
+					"Mencuri informasi dan merusak data",
+					"Mengembangkan perangkat lunak baru"
+				],
+				"answer": "Mencuri informasi dan merusak data"
+			}
+		]
+	}
 ]
