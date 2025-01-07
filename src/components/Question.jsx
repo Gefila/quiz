@@ -10,7 +10,7 @@ export default function Question({ dispatch, questionData, answer, option, quizD
     return (
         
             <div className="bg-slate-900 p-4 rounded-lg flex flex-col lg:px-10">
-                <div className="text-white mb-5 text-lg">{questionData.question}</div>
+                <div className="text-white mb-5 text-lg whitespace-pre-line text-justify">{questionData.question}</div>
                 <Options
                     dispatch={dispatch}
                     options={questionData.options}
