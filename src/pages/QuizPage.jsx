@@ -155,7 +155,7 @@ export default function QuizPage() {
 	}, []);
 
 	return (
-		<div className="flex w-full h-screen justify-center items-center bg-slate-950">
+		<div className="flex w-full min-h-screen justify-center items-center bg-slate-950">
 			{status === "idle" && (
 				<StartScreen
 					dispatch={dispatch}

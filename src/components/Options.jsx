@@ -1,5 +1,6 @@
 export default function Options({ dispatch, options, answer, option }) {
     const selectedOption = option;
+    const alphabet = ["A", "B", "C", "D", "E"];
     return (
         <div className="flex flex-col items-stretch gap-2">
             {options.map((option, index) => (
@@ -24,7 +25,7 @@ export default function Options({ dispatch, options, answer, option }) {
                     }}
                     disabled={selectedOption}
                 >
-                    {option}
+                    {`${alphabet[index]}. ${option}`}
                 </button>
             ))}
         </div>
