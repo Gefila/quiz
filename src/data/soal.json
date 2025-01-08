@@ -271,6 +271,357 @@
 					"Karena hacker bukan cracker, jadi pasti seorang hacker berjiwa Iuhur"
 				],
 				"answer": "Karena hacker dapat membantu mengidentifikasi dan memperbaiki kerentanan"
+			},
+			{
+				"id": 21,
+				"question": "Berikut ini alasan dari seseorang menghack, kecuali....",
+				"options": [
+					"Membuktikan kemampuan",
+					"Menghasilkan uang",
+					"Tujuan dan rasial",
+					"Sebagai bahan ajaran",
+					"Melawan pemerintah atau besar"
+				],
+				"answer": "Sebagai bahan ajaran"
+			},
+			{
+				"id": 22,
+				"question": "Apa utama banyak hacker untuk melakukan hacking?",
+				"options": [
+					"Kesenangan semata",
+					"Mencari target yang lemah / tidak cerdas",
+					"Mempelajari teknologi baru",
+					"Meningkatkan reputasi di komunitas",
+					"Keuntungan finansial"
+				],
+				"answer": "Keuntungan finansial"
+			},
+			{
+				"id": 23,
+				"question": "Di bawah ini mana yang bukan merupakan alasan seseorang menjadi hacker?",
+				"options": [
+					"Membuktikan Kemampuan",
+					"Ingin Mendapatkan Uang",
+					"Ingin ditakuti banyak orang",
+					"Melawan Pemerintah dan Perusahaan Besar",
+					"Karena merasa bertumpah darah satu, berbangsa satu, dan berbahasa satu, yaitu Indonesia"
+				],
+				"answer": "Ingin ditakuti banyak orang"
+			},
+			{
+				"id": 24,
+				"question": "Salah satu Ciri utama dari serangan phishing adalah:",
+				"options": [
+					"Peringatan adanya virus di sistem komputer target",
+					"Penggunaan malware untuk mengenkripsi file korban.",
+					"Pengendalian perangkat korban melalui jaringan Wi-Fi",
+					"Menyusup ke server untuk mencuri data pengguna",
+					"Email atau pesan palsu dari bank atau pemerintah"
+				],
+				"answer": "Email atau pesan palsu dari bank atau pemerintah"
+			},
+			{
+				"id": 25,
+				"question": "Salah satu contoh serangan jaringan yang berpotensi mengganggu layanan adalah",
+				"options": [
+					"Phishing",
+					"Data Breach",
+					"Denial of Service (DoS)",
+					"Malware",
+					"Adsware"
+				],
+				"answer": "Denial of Service (DoS)"
+			},
+			{
+				"id": 26,
+				"question": "Dalam perlindungan software terdapat Asosiasi Piranti perangkat lunak Telematika Indonesia (ASPILUKI). Tahun berapa ASPILUKI dibentuk?",
+				"options": ["1989", "1990", "1991", "1992", "1993"],
+				"answer": "1990"
+			},
+			{
+				"id": 27,
+				"question": "Undang-undang hak cipta Amerika Serikat yang berfokus pada hak cipta media digital untuk membantu pemilik konten suatu website agar tidak dimasukkan ke hasil pencarian mesin pencari adalah",
+				"options": [
+					"UU ITE",
+					"DMCD (Digital Millenium Copyright Denial)",
+					"DDoS (Distributed Denial of Service)",
+					"DoS (Denial of Service)",
+					"DMCA (Digital Millenium Copyright Act)"
+				],
+				"answer": "DMCA (Digital Millenium Copyright Act)"
+			},
+			{
+				"id": 28,
+				"question": "Berikut ini yang merupakan contoh serangan rekayasa sosial atau social engineering adalah",
+				"options": [
+					"Phishing email",
+					"Serangan brute force",
+					"Man in the middle attack",
+					"Injeksi SQL",
+					"Denial-of-Service (DOS)"
+				],
+				"answer": "Phishing email"
+			},
+			{
+				"id": 29,
+				"question": "Beberapa organisasi atau grup yang terkenal dalam dunia scene warez dan cracking perangkat lunak telah beroperasi selama betahun-tahun khususnya crack untuk berbagai jenis lunak dan game. Berikut ini yang tidak termasuk organisasi tersebut",
+				"options": ["DMCA", "Razor 1911", "RELOADED", "Skid Row", "X-Force"],
+				"answer": "DMCA"
+			},
+			{
+				"id": 30,
+				"question": "Jika seorang pengguna terus menginstal ulang lunak trial melebihi yang diizinkan Oleh lisensi, dampak yang paligg mungkin terjadi adalah ",
+				"options": [
+					"Perangkat lunak tersebut akan dianggap bajakan",
+					"Perangkat lunak trial akan mengkonfigurasi sistem untuk meningkatkan keamanan secara otomatis",
+					"Sistem akan menjadi lebih cepat karena perangkat lunak trial dapat memanfaatkan ruang disk yang lebih sedikit (karena sudah terinstal)",
+					"Sistem yang akan mengalami gangguan stabilitas karena perangkat lunak tidak dapat berfungsi dengan benar",
+					"Sistem akan menjadi lebih stabil karena masa trial sudah dilalui dengan baik"
+				],
+				"answer": "Perangkat lunak tersebut akan dianggap bajakan"
+			},
+			{
+				"id": 31,
+				"question": "Salah satu tindakan perlindungan yang harus ada pada perangkat lunak untuk menjaga keamanan dan privasi pengguna, kecuali",
+				"options": [
+					"Enkripsi data untuk melindungi informasi sensitif",
+					"Penggunaan firewall untuk melindungi dari ancarnan eksternal",
+					"Pembaruan rutin untuk mengatasi kerentanannya (patch security holes)",
+					"Perlindungan terhadap perangkat lunak bajakan yang dapat menyebabkan kerusakan",
+					"Penggunaan antivirus untuk mendeteksi malware di dalam perangkat"
+				],
+				"answer": "Perlindungan terhadap perangkat lunak bajakan yang dapat menyebabkan kerusakan"
+			},
+			{
+				"id": 32,
+				"question": "Apa yang dimaksud dengan kebebasan berbicara?",
+				"options": [
+					"Hak untuk berbicara tanpa batasan",
+					"Hak untuk menyampaikan pendapat tanpa melanggar hukum",
+					"Hak untuk menyerang orang lain secara verbal maupun tindakan",
+					"Hak untuk mengabaikan aturan dan norma",
+					"Hak untuk mengutarakan apapun tanpa batasan dan sensor, maupun keduanya"
+				],
+				"answer": "Hak untuk mengutarakan apapun tanpa batasan dan sensor, maupun keduanya"
+			},
+			{
+				"id": 33,
+				"question": "Jika kita mengalami pencemaran nama baik, ujaran kebencian, dan ancaman penghilangan nyawa. Apa yang seharusnya dilakukan",
+				"options": [
+					"Membalas pelaku dengan balik mencemari nama mereka dan memberikan ancaman",
+					"melaporkan ke gubernur terpilih",
+					"Mengabaikan dan memblokir semua akun media sosial",
+					"Melaporkan ke pihak berwajib",
+					"Mengumpulkan orang-orang untuk menganiaya pelaku"
+				],
+				"answer": "Melaporkan ke pihak berwajib"
+			},
+			{
+				"id": 34,
+				"question": "Apa langkah yang dapat dilakukan seseorang untuk menghindari pelanggaran UU ITE saat menggunakan media sosial?",
+				"options": [
+					"Menghapus semua akun media sosial",
+					"Membatasi akses internet ke masyarakat",
+					"Memverifikasi kebenaran informasi sebelum membagikan",
+					"Tidak menggunakan teknologi sama sekali",
+					"Jangan menggunakan media sosial"
+				],
+				"answer": "Memverifikasi kebenaran informasi sebelum membagikan"
+			},
+			{
+				"id": 35,
+				"question": "Dono mulai bekerja sebagai konten kreator di Juni 2024, karena video yang dia buat sangat menarik jadi dalam waktu singkat la sudah mempunyai banyak fans dan penonton. Ada konten kreator lain yang iri dan membuat postingan fitnah tentang Dono. Karena merasa nama baiknya sedang dicemarkan Dono melapor ke pihak berwenang- UU ITE yang biasa dipakai terkait pencemaran nama baik diatur dalam pasal?",
+				"options": [
+					"Pasal 27 Ayat (1)",
+					"Pasal 27 Ayat (2)",
+					"Pasal 27A",
+					"Pasal 27B Ayat (1)",
+					"Pasal 27 Ayat (4)"
+				],
+				"answer": "Pasal 27A"
+			},
+			{
+				"id": 36,
+				"question": "Apa yang merupakan batasan dalam kebebasan berbicara?",
+				"options": [
+					"Berita benar sesuai fakta",
+					"Kritik terhadap pemerintah",
+					"Pamer foto Iiburan ke luar negeri",
+					"Pamer Saldo ATM",
+					"Ujaran kebencian"
+				],
+				"answer": "Ujaran kebencian"
+			},
+			{
+				"id": 37,
+				"question": "Apa tujuan utama diterapkannya UU ITE di Indonesia?",
+				"options": [
+					"Mengawasi seluruh aktivitas media sosial, khususnya yang menarik perhatian",
+					"Membatasi kebebasan berbicara di internet",
+					"Menghapus seluruh konten digital di internet agar aman dari stalking",
+					"Memberikan jaminan kepastian hukum untuk masyarakat yang melakukan transaksi elektronik",
+					"Mengekang kebebasan berbicara dan mengeluarkan pendapat"
+				],
+				"answer": "Memberikan jaminan kepastian hukum untuk masyarakat yang melakukan transaksi elektronik"
+			},
+			{
+				"id": 38,
+				"question": "Sensor terhadap konten dunia maya seringkali dilakukan Oleh platform media sosial. Apa tujuan utama dari tindakan ini?",
+				"options": [
+					"Melindungi pengguna dari konten berbahaya, seperti ujaran kebencian",
+					"Membatasi kebebasan berekspresi pengguna",
+					"Menghapus semua opini yang tidak sesuai dengan pemerintah",
+					"Menyembunyikan kebenaran tentang isu agama dan politik",
+					"Mengurangi media sosial"
+				],
+				"answer": "Melindungi pengguna dari konten berbahaya, seperti ujaran kebencian"
+			},
+			{
+				"id": 39,
+				"question": "Apa langkah yang dapat diambil orang tua untuk melindungi anak-anak dari konten dewasa di dunia maya?",
+				"options": [
+					"Membiarkan anak-anak menggunakan perangkat tanpa pengawasan",
+					"Memberikan akses penuh pada semua konten agar anak belajar mandiri",
+					"Menghapus semua aplikasi media sosial dari perangkat anak",
+					"Membatasi waktu penggunaan perangkat elektronik hingga 1 jam sehari",
+					"Menggunakan fitur kontrol orang tua pada perangkat dan aplikasi"
+				],
+				"answer": "Menggunakan fitur kontrol orang tua pada perangkat dan aplikasi"
+			},
+			{
+				"id": 40,
+				"question": "Mengapa keberadaan situs yang berisi informasi sipil dan kenegaraan penting?",
+				"options": [
+					"Agar masyarakat dapat mengakses hiburan secara online",
+					"Untuk memberikan informasi resmi kepada masyarakat tentang hak dan kewajiban mereka",
+					"Sebagai sarana untuk mempromosikan produk-produk teknologi terbaru",
+					"Untuk mengurangi penggunaan buku dan media cetak",
+					"Sebagai pengganti media sosial dalam diskusi publik"
+				],
+				"answer": "Untuk memberikan informasi resmi kepada masyarakat tentang hak dan kewajiban mereka"
+			},
+			{
+				"id": 41,
+				"question": "Dari beberapa kasus dibawah ini yang tidak termasuk dalam kasus kebebasan berbicara adalah....",
+				"options": [
+					"Gunawan Sadbor dugaan promosi judol",
+					"Ahmad Dani ujaran kebencian",
+					"Ahok Penistaan agama",
+					"Me hoa menyudutkan etnis tertentu",
+					"Cut Intan Nabila KDRT"
+				],
+				"answer": "Cut Intan Nabila KDRT"
+			},
+			{
+				"id": 42,
+				"question":"Kebebasan berbicara adalah hak yang dijamin Oleh banyak negara. Namun, kebebasan ini biasanya memiliki batasan. Berikut ini adalah contoh tindakan yang melanggar batasan kebebasan berbicara:",
+				"options": [
+					"Menyebarkan ujaran kebencian terhadap kelompok tertentu",
+					"Menyampaikan kritik terhadap pemerintah dengan fakta dan data",
+					"Menyuarakan pendapat dalam demonstrasi damai",
+					"Menulis opini pribadi di media sosial",
+					"Berdiskusi tentang kebijakan publik di ruang terbuka"
+				],
+				"answer": "Menyebarkan ujaran kebencian terhadap kelompok tertentu"
+			},
+			{
+				"id": 43,
+				"question":"Dalam penerapan kebebasan berbicara, salah satu tantangan utama yang sering dihadapi adalah",
+				"options": [
+					"Memastikan semua pendapat memiliki kekuatan hukum yang sama",
+					"Menghapuskan semua jenis kritik terhadap pemerintah atau institusi negara",
+					"Menetapkan aturan yang memungkinkan penyebaran informasi tanpa regulasi",
+					"Menyelaraskan kebebasan berbicara dengan hak asasi manusia dan penghormatan terhadap orang lain",
+					"Menyediakan platform bagi semua orang tanpa mempertimbangkan dampak sosial dari pendapat mereka"	
+				],
+				"answer": "Menyelaraskan kebebasan berbicara dengan hak asasi manusia dan penghormatan terhadap orang lain"
+			},
+			{
+				"id": 44,
+				"question":"Apa yang dimaksud dengan transfer teknologi?",
+				"options": [
+					"Pengembangan teknologi baru secara mandiri",
+					"Proses pemindahan keterampilan, pengetahuan, metode manufaktur, sampel, dan teknologi antar pihak",
+					"Peningkatan efisiensi manufaktur tanpa kolaborasi",
+					"Proses pembelian hardware baru untuk mengganti hardware yang lama",
+					"Proses distribusi barang hasil produksi ke pasar intemasional"
+				],
+				"answer": "Proses pemindahan keterampilan, pengetahuan, metode manufaktur, sampel, dan teknologi antar pihak"
+			},
+			{
+				"id": 45,
+				"question":"Salah satu kendala utama dalam transfer teknologi adalah",
+				"options": [
+					"Pengguna yang cerdas terlalu dalam mengevaluasi teknologi",
+					"Ketersediaan teknologi yang sangat luas",
+					"Tujuan yang berbeda antara industri dan akademisi",
+					"Ketersediaan dana tanpa batas",
+					"Peningkatan kualitas hidup manusia"
+				],
+				"answer": "Tujuan yang berbeda antara industri dan akademisi"
+			},
+			{
+				"id": 46,
+				"question":"Dalam proyek IT, kesenjangan yang sering terjadi antara pengguna dan peneliti meliputi:",
+				"options": [
+					"Ketidaktahuan peneliti tentang keinginan pengguna",
+					"Ketidakmampuan pengguna menggunakan teknologi baru",
+					"Ketergantungan peneliti pada teknologi",
+					"Keberhasilan pengguna memahami semua tren teknologi",
+					"Kerja sama yang terjalin erat antara pengguna dan peneliti"
+				],
+				"answer": "Ketidaktahuan peneliti tentang keinginan pengguna"
+			},
+			{
+				"id": 47,
+				"question":"Salah satu contoh penerapan teknologi baru untuk meningkatkan kualitas hidup adalah.......",
+				"options": [
+					
+					"Massive Parallel Computing untuk simulasi lingkungan",
+					"Penggunaan algoritma komputasi dasar untuk permainan tradisional",
+					"Penyediaan sinyal analog untuk stasiun radio",
+					"Pengembangan teknologi tanpa melibatkan masyarakat",
+					"Penerapan teknologi hanya untuk tujuan akademis"
+				],
+				"answer": "Massive Parallel Computing untuk simulasi lingkungan"
+			},
+			{
+				"id": 48,
+				"question":"Salah satu keuntungan utama dari transfer teknologi bagi negara berkembang adalah...",
+				"options": [
+					
+					"Memperluas jaringan politik internasional",
+					"Meningkatkan ketergantungan terhadap negara maju",
+					"Mempercepat proses industrialisasi dan perkembangan ekonomi",
+					"Menurunkan biaya penelitian di sektor publik",
+					"Mempermudah akses ke sumber daya alam negara maju"
+				],
+				"answer": "Mempercepat proses industrialisasi dan perkembangan ekonomi"
+			},
+			{
+				"id": 49,
+				"question":"Salah satu dampak positif dari transfer teknologi komputer terhadap masyarakat adalah..",
+				"options": [
+					"Meningkatnya kesenjangan digital",
+					"Meningkatnya literasi digital",
+					"Penurunan kualitas pekerjaan",
+					"Berkurangnya jumlah pengguna teknologi",
+					"Meningkatnya akses informasi dan pendidikan"
+				],
+				"answer": "Meningkatnya akses informasi dan pendidikan"
+			},
+			{
+				"id": 50,
+				"question":"Dalam transfer teknologi, peran pemerintah sangat penting untuk..",
+				"options": [
+					
+					"Mengatur regulasi penggunaan internet secara ketat",
+					"Membatasi akses informasi internet untuk keamanan nasional",
+					"Menghilangkan semua bentuk teknologi baru",
+					"Menyediakan infrastruktur dan pelatihan bagi masyarakat",
+					"Mendorong penggunaan perangkat lunak bajakan untuk menghemat biaya"
+				],
+				"answer": "Menyediakan infrastruktur dan pelatihan bagi masyarakat"
 			}
 		]
 	}
