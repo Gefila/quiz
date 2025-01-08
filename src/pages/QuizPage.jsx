@@ -4,6 +4,7 @@ import dataSoal from "../data/soal.json";
 import Question from "../components/Question";
 import Info from "../components/Info";
 import Finish from "../components/Finish";
+import fisherYatesShuffle from "../utils";
 
 export default function QuizPage() {
 	const [
@@ -112,12 +113,12 @@ export default function QuizPage() {
 
 	//const quizDataLength = quizData.soal.length;
 
-	const fisherYatesShuffle = (array) => {
-		for (let i = array.length - 1; i > 0; i--) {
-			const j = Math.floor(Math.random() * (i + 1));
-			[array[i], array[j]] = [array[j], array[i]]; // Swap
-		}
-	};
+	// const fisherYatesShuffle = (array) => {
+	// 	for (let i = array.length - 1; i > 0; i--) {
+	// 		const j = Math.floor(Math.random() * (i + 1));
+	// 		[array[i], array[j]] = [array[j], array[i]]; // Swap
+	// 	}
+	// };
 
 	useEffect(() => {
 		if (judulSoal === "Pilih Salah Satu") return;
