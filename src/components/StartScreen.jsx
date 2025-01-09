@@ -6,6 +6,21 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal, tip
             </h1>
             <label className="form-control w-full max-w-xs">
                 <div className="label">
+                    <span className="label-text">Masukkan Nama Anda?</span>
+                </div>
+                <input
+                    type="text"
+                    placeholder="Type here"
+                    className="input input-bordered w-full max-w-xs"
+                    value={name}
+                    onChange={(e) =>
+                        dispatch({ type: "setName", payload: e.target.value })
+                    }
+                    required
+                />
+            </label>
+            <label className="form-control w-full max-w-xs">
+                <div className="label">
                     <span className="label-text">Pilih Soal</span>
                 </div>
                 <select
@@ -42,21 +57,6 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal, tip
                     }
                 </select>
             </label>
-            <label className="form-control w-full max-w-xs">
-                <div className="label">
-                    <span className="label-text">Masukkan Nama Anda?</span>
-                </div>
-                <input
-                    type="text"
-                    placeholder="Type here"
-                    className="input input-bordered w-full max-w-xs"
-                    value={name}
-                    onChange={(e) =>
-                        dispatch({ type: "setName", payload: e.target.value })
-                    }
-                    required
-                />
-            </label>
 
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
@@ -64,7 +64,7 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal, tip
                 onClick={() =>
                     document.getElementById("my_modal_5").showModal()
                 }
-                disabled={!name || judulSoal === "Pilih Salah Satu"}
+                disabled={!name || judulSoal === "Pilih Salah Satu" || tipeSoal === "Pilih Salah Satu"}
             >
                 Start Quiz
             </button>
@@ -76,7 +76,7 @@ export default function StartScreen({ dispatch, daftarSoal, name, judulSoal, tip
                     <h3 className="font-bold text-lg">Halo {name}</h3>
                     <p className="py-4">
                         Anda akan memulai quiz dengan soal{" "}
-                        <span className="font-bold">{judulSoal}</span>
+                        <span className="font-bold">{`${judulSoal} (${tipeSoal})`}</span>
                     </p>
                     <div className="modal-action">
                         <form method="dialog">

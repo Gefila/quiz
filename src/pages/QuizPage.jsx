@@ -167,7 +167,7 @@ export default function QuizPage() {
 				/>
 			)}
 			{status === "start" && (
-				<div className="w-full m-2 lg:px-28">
+				<div className="w-full m-2 lg:px-28 self-start">
 					<Info
 						number={number}
 						score={score}
