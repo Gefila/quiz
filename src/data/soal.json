@@ -12,18 +12,34 @@
 			},
 			{
 				"id": 2,
-				"tipe": "Soal 1-10",
+				"tipe": "Soal 1-20",
 				"jumlahSoal": {
 					"dari": 1,
-					"sampai": 10
+					"sampai": 20
 				}
 			},
 			{
 				"id": 3,
-				"tipe": "Soal 11-20",
+				"tipe": "Soal 21-40",
 				"jumlahSoal": {
-					"dari": 11,
-					"sampai": 20
+					"dari": 21,
+					"sampai": 40
+				}
+			},
+			{
+				"id": 4,
+				"tipe": "Soal 41-60",
+				"jumlahSoal": {
+					"dari": 41,
+					"sampai": 60
+				}
+			},
+			{
+				"id": 5,
+				"tipe": "Soal 61-70",
+				"jumlahSoal": {
+					"dari": 61,
+					"sampai": 70
 				}
 			}
 		],
@@ -514,7 +530,7 @@
 			},
 			{
 				"id": 42,
-				"question":"Kebebasan berbicara adalah hak yang dijamin Oleh banyak negara. Namun, kebebasan ini biasanya memiliki batasan. Berikut ini adalah contoh tindakan yang melanggar batasan kebebasan berbicara:",
+				"question": "Kebebasan berbicara adalah hak yang dijamin Oleh banyak negara. Namun, kebebasan ini biasanya memiliki batasan. Berikut ini adalah contoh tindakan yang melanggar batasan kebebasan berbicara:",
 				"options": [
 					"Menyebarkan ujaran kebencian terhadap kelompok tertentu",
 					"Menyampaikan kritik terhadap pemerintah dengan fakta dan data",
@@ -526,19 +542,19 @@
 			},
 			{
 				"id": 43,
-				"question":"Dalam penerapan kebebasan berbicara, salah satu tantangan utama yang sering dihadapi adalah",
+				"question": "Dalam penerapan kebebasan berbicara, salah satu tantangan utama yang sering dihadapi adalah",
 				"options": [
 					"Memastikan semua pendapat memiliki kekuatan hukum yang sama",
 					"Menghapuskan semua jenis kritik terhadap pemerintah atau institusi negara",
 					"Menetapkan aturan yang memungkinkan penyebaran informasi tanpa regulasi",
 					"Menyelaraskan kebebasan berbicara dengan hak asasi manusia dan penghormatan terhadap orang lain",
-					"Menyediakan platform bagi semua orang tanpa mempertimbangkan dampak sosial dari pendapat mereka"	
+					"Menyediakan platform bagi semua orang tanpa mempertimbangkan dampak sosial dari pendapat mereka"
 				],
 				"answer": "Menyelaraskan kebebasan berbicara dengan hak asasi manusia dan penghormatan terhadap orang lain"
 			},
 			{
 				"id": 44,
-				"question":"Apa yang dimaksud dengan transfer teknologi?",
+				"question": "Apa yang dimaksud dengan transfer teknologi?",
 				"options": [
 					"Pengembangan teknologi baru secara mandiri",
 					"Proses pemindahan keterampilan, pengetahuan, metode manufaktur, sampel, dan teknologi antar pihak",
@@ -550,7 +566,7 @@
 			},
 			{
 				"id": 45,
-				"question":"Salah satu kendala utama dalam transfer teknologi adalah",
+				"question": "Salah satu kendala utama dalam transfer teknologi adalah",
 				"options": [
 					"Pengguna yang cerdas terlalu dalam mengevaluasi teknologi",
 					"Ketersediaan teknologi yang sangat luas",
@@ -562,7 +578,7 @@
 			},
 			{
 				"id": 46,
-				"question":"Dalam proyek IT, kesenjangan yang sering terjadi antara pengguna dan peneliti meliputi:",
+				"question": "Dalam proyek IT, kesenjangan yang sering terjadi antara pengguna dan peneliti meliputi:",
 				"options": [
 					"Ketidaktahuan peneliti tentang keinginan pengguna",
 					"Ketidakmampuan pengguna menggunakan teknologi baru",
@@ -574,9 +590,8 @@
 			},
 			{
 				"id": 47,
-				"question":"Salah satu contoh penerapan teknologi baru untuk meningkatkan kualitas hidup adalah.......",
+				"question": "Salah satu contoh penerapan teknologi baru untuk meningkatkan kualitas hidup adalah.......",
 				"options": [
-					
 					"Massive Parallel Computing untuk simulasi lingkungan",
 					"Penggunaan algoritma komputasi dasar untuk permainan tradisional",
 					"Penyediaan sinyal analog untuk stasiun radio",
@@ -587,9 +602,8 @@
 			},
 			{
 				"id": 48,
-				"question":"Salah satu keuntungan utama dari transfer teknologi bagi negara berkembang adalah...",
+				"question": "Salah satu keuntungan utama dari transfer teknologi bagi negara berkembang adalah...",
 				"options": [
-					
 					"Memperluas jaringan politik internasional",
 					"Meningkatkan ketergantungan terhadap negara maju",
 					"Mempercepat proses industrialisasi dan perkembangan ekonomi",
@@ -600,7 +614,7 @@
 			},
 			{
 				"id": 49,
-				"question":"Salah satu dampak positif dari transfer teknologi komputer terhadap masyarakat adalah..",
+				"question": "Salah satu dampak positif dari transfer teknologi komputer terhadap masyarakat adalah..",
 				"options": [
 					"Meningkatnya kesenjangan digital",
 					"Meningkatnya literasi digital",
@@ -612,9 +626,8 @@
 			},
 			{
 				"id": 50,
-				"question":"Dalam transfer teknologi, peran pemerintah sangat penting untuk..",
+				"question": "Dalam transfer teknologi, peran pemerintah sangat penting untuk..",
 				"options": [
-					
 					"Mengatur regulasi penggunaan internet secara ketat",
 					"Membatasi akses informasi internet untuk keamanan nasional",
 					"Menghilangkan semua bentuk teknologi baru",
@@ -622,6 +635,239 @@
 					"Mendorong penggunaan perangkat lunak bajakan untuk menghemat biaya"
 				],
 				"answer": "Menyediakan infrastruktur dan pelatihan bagi masyarakat"
+			},
+			{
+				"id": 51,
+				"question": "Salah satu hambatan utama dalam transfer teknologi adalah...",
+				"options": [
+					"Minimnya tenaga kerja terampil yang dapat mengadopsi teknologi baru",
+					"Kurangnya permintaan pasar terhadap inovasi teknologi",
+					"Adanya subsidi pemerintah terhadap pengembangan teknologi",
+					"Rendahnya biaya pelatihan penggunaan teknologi",
+					"Peraturan internasional yang terlalu fleksibel"
+				],
+				"answer": "Minimnya tenaga kerja terampil yang dapat mengadopsi teknologi baru"
+			},
+			{
+				"id": 52,
+				"question": "Salah satu pengaruh negatif hiburan digital terhadap masyarakat adalah....",
+				"options": [
+					"Meningkatkan kreativitas dalam seni digital",
+					"Memperluas akses pengetahuan",
+					"Menyebabkan kecanduan yang dapat mempengaruhi kesehatan mental",
+					"Memudahkan kolaborasi dalam proyek kreatif",
+					"Meningkatkan konektivitas antar individu"
+				],
+				"answer": "Menyebabkan kecanduan yang dapat mempengaruhi kesehatan mental"
+			},
+			{
+				"id": 53,
+				"question": "Dalam hiburan digital, teknologi virtual reality (VR) digunakan untuk...",
+				"options": [
+					"Membantu penghitungan pajak secara otomatis",
+					"Mengelola data dalam server besar",
+					"Meningkatkan keamanan perangkat lunak karena hanya secara virtual",
+					"Membuat presentasi bisnis yang lebih efisien dan efektif",
+					"Meningkatkan pengalaman pengguna dalam dunia virtual"
+				],
+				"answer": "Meningkatkan pengalaman pengguna dalam dunia virtual"
+			},
+			{
+				"id": 54,
+				"question": "Apa yang dimaksud dengan hiburan digital?",
+				"options": [
+					"Hiburan yang hanya dapat dinikmati di teater",
+					"Hiburan yang memerlukan tempat khusus untuk menikmatinya",
+					"Hiburan yang hanya bisa diakses melalui televisi maupun radio",
+					"Hiburan yang dialami melalui perangkat elektronik seperti komputer dan ponsel pintar",
+					"Hiburan yang tidak memberikan kesenangan"
+				],
+				"answer": "Hiburan yang dialami melalui perangkat elektronik seperti komputer dan ponsel pintar"
+			},
+			{
+				"id": 55,
+				"question": "Berikut ini yang merupakan contoh hiburan digital adalah",
+				"options": [
+					"Menonton konser di gedung pertunjukan",
+					"Bermain game melalui ponsel pintar",
+					"Membaca buku cetak di perpustakaan",
+					"Menonton drama panggung / opera di teater",
+					"Mengikuti pelatihan langsung di studio"
+				],
+				"answer": "Bermain game melalui ponsel pintar"
+			},
+			{
+				"id": 56,
+				"question": "Apa yang menjadi tantangan utama dalam mengakses hiburan digital bagi sebagian masyarakat?",
+				"options": [
+					"Ketersediaan konten berkualitas tinggi",
+					"Biaya beriangganan layanan yang tinggi",
+					"Keterbatasan akses intemet di daerah terpencil",
+					"Banyaknya pilihan layanan yang tersedia sehingga membingungkan"
+				],
+				"answer": "Keterbatasan akses intemet di daerah terpencil"
+			},
+			{
+				"id": 57,
+				"question": "Apa risiko utama yang dihadapi pengguna platform hiburan digital berbasis langganan seperti Netflix dan Spotify?",
+				"options": [
+					"Penurunan kualitas layanan karena keterbatasan resource server",
+					"Ketergantungan pada perangkat keras tertentu",
+					"Keterbatasan konten yang dapat diunduh",
+					"Tidak adanya sistem rekomendasi berbasis AI",
+					"Eksploitasi data pribadi dan pelacakan aktivitas pengguna"
+				],
+				"answer": "Eksploitasi data pribadi dan pelacakan aktivitas pengguna"
+			},
+			{
+				"id": 58,
+				"question": "Siapa programmer terampil yang disebut Departemen Kehakiman Amerika Serikat (AS) sebagai \"Penjahat Komputer Paling Dicari dalam Sejarah AS\"....",
+				"options": [
+					"Onno W Purbo",
+					"Bjorka",
+					"Adrian Lamo",
+					"Kevin Mitnick",
+					"Rangga Syafutra Dewa"
+				],
+				"answer": "Kevin Mitnick"
+			},
+			{
+				"id": 59,
+				"question": "Tingkatan ilmu hacker apa yang biasa digunakan untuk menggambarkan seseorang hacker yang memiliki pengetahuan yang mendalam serta kemampuan teknis tinggi?",
+				"options": [
+					"Elite",
+					"Script Kiddie",
+					"Developed Kiddie",
+					"Lamer",
+					"Gray hat"
+				],
+				"answer": "Elite"
+			},
+			{
+				"id": 60,
+				"question": "Apa yang dimaksud dengan kejahatan komputer?",
+				"options": [
+					"Penggunaan komputer untuk bermain game online",
+					"Komputer terserang virus",
+					"Komputer menjadi jahat untuk kelompok orang tertentu",
+					"Penggunaan komputer dan jaringan untuk mengerjakan tugas kuliah",
+					"Penggunaan komputer dan jaringan untuk melakukan tindakan illegal (mengakses sumber daya komputer tanpa otorisasi)"
+				],
+				"answer": "Penggunaan komputer dan jaringan untuk melakukan tindakan illegal (mengakses sumber daya komputer tanpa otorisasi)"
+			},
+			{
+				"id": 61,
+				"question": "Apa yang menjadi dampak langsung dari kebocoran informasi pribadi?",
+				"options": [
+					"Meningkatnya keamanan data pribadi",
+					"Potensi kehilangan data yang penting, khususnya foto maupun video vulgar",
+					"Penyebaran konten yang lebih luas dan lebih cepat",
+					"Penyalahgunaan data pribadi untuk tindakan penipuan atau kejahatan finansial",
+					"Keterbatasan akses terhadap data pribadi"
+				],
+				"answer": "Penyalahgunaan data pribadi untuk tindakan penipuan atau kejahatan finansial"
+			},
+			{
+				"id": 62,
+				"question": "Apa yang menjadi risiko terbesar ketika fasilitas publik seperti layanan kesehatan berhenti beroperasi akibat serangan siber?",
+				"options": [
+					"Penurunan biaya operasional fasilitas kesehatan tersebut",
+					"Gangguan pada sistem keamanan fisik fasilitas kesehatan",
+					"Keterlambatan penanganan situasi darurat atau genting",
+					"Meningkatnya jumlah tenaga kerja di bidang IT",
+					"Peningkatan aksesibilitas layanan kesehatan"
+				],
+				"answer": "Keterlambatan penanganan situasi darurat atau genting"
+			},
+			{
+				"id": 63,
+				"question": "Manakah di bawah ini yang merupakan tanda-tanda bahwa email tersebut palsu?",
+				"options": [
+					"Email menggunakan alamat resmi dan terverifikasi",
+					"Email meminta data pribadi dengan nada mendesak dan mengancam",
+					"Email dilengkapi dengan tanda tangan digital",
+					"Email berisi panduan tentang cara mengamankan data pribadi",
+					"Email tidak menyertakan lampiran atau tautan apa pun"
+				],
+				"answer": "Email meminta data pribadi dengan nada mendesak dan mengancam"
+			},
+			{
+				"id": 64,
+				"question": "Apa nama organisasi yang menjadi wadah komunikasi, konsultasi, pembinaan, dan koordinasi antar pengusaha perangkat lunak di Indonesia?",
+				"options": ["ASPILUKI", "BAPEPAM", "KADIN", "HIMTI", "PERBASUS"],
+				"answer": "ASPILUKI"
+			},
+			{
+				"id": 65,
+				"question": "Berikut ini macam-macam tipe serangan jaringan, kecuali.....",
+				"options": [
+					"DoS dan DDoS",
+					"Memperbaharui perangkat lunak secara rutin",
+					"Man in the Middle Attack",
+					"Mencari port (Port Scanning",
+					"Mencoba kata sandi (Bruteforce)"
+				],
+				"answer": "Memperbaharui perangkat lunak secara rutin"
+			},
+			{
+				"id": 66,
+				"question": "Apa perbedaan utama antara serangan DoS dan DDoS?",
+				"options": [
+					"DoS dilakukan Oleh satu host, sedangkan DDoS dilakukan Oleh banyak host secara bersamaan",
+					"DoS hanya menyerang jaringan, sedangkan DDoS hanya menyerang lunak",
+					"DoS memerlukan bandwidth yang lebih besar dibandingkan DDoS",
+					"DoS dilakukan secara legal, sedangkan DDoS adalah tindakan ilegal",
+					"DoS berlangsung lebih lama dibandingkan DDoS"
+				],
+				"answer": "DoS dilakukan Oleh satu host, sedangkan DDoS dilakukan Oleh banyak host secara bersamaan"
+			},
+			{
+				"id": 67,
+				"question": "Apa kendala yang dihadapi dalam praktik kebebasan berbicara di Indonesia....",
+				"options": [
+					"Adanya ketakutan dalam mempraktikkan kebebasan berbicara karena jerat hukum ITE",
+					"Susahnya masyarakat berbicara karena introvert",
+					"Tidak mempunyai opini yang kuat",
+					"Ketika berbicara termasuk melakukan ujaran kebencian",
+					"Orang yang berbicara di umum dikatakan tidak sopan dan menjijikkan"
+				],
+				"answer": "Adanya ketakutan dalam mempraktikkan kebebasan berbicara karena jerat hukum ITE"
+			},
+			{
+				"id": 68,
+				"question": "Apa salah satu cara efektif untuk membatasi dampak negatif teknologi pada anak-anak?",
+				"options": [
+					"Membiarkan anak menggunakan gadget tanpa pengawasan",
+					"Menetapkan waktu layar yang teratur dan membatasi akses ke konten tertentu",
+					"Tidak memberikan anak akses ke teknologi sama sekali",
+					"Membiarkan anak mengakses internet sepanjang waktu",
+					"Tidak memantau anak saat menggunakan akses teknologi"
+				],
+				"answer": "Menetapkan waktu layar yang teratur dan membatasi akses ke konten tertentu"
+			},
+			{
+				"id": 69,
+				"question": "Apa tantangan terbesar dari anonimitas di dunia maya?",
+				"options": [
+					"Meningkatkan keterbukaan identitas pengguna",
+					"Membatasi kebebasan berekspresi pengguna",
+					"Mempercepat proses hukum terhadap kejahatan digital",
+					"Menyulitkan pelacakan pelaku kejahatan siber",
+					"Mengurangi penggunaan media sosial"
+				],
+				"answer": "Menyulitkan pelacakan pelaku kejahatan siber"
+			},
+			{
+				"id": 70,
+				"question": "Apa dampak utama dari maraknya spam di dunia maya?",
+				"options": [
+					"Meningkatkan efisiensi komunikasi digital",
+					"Membatasi distribusi informasi yang benar",
+					"Mempercepat akses ke layanan online",
+					"Mengurangi jumlah pengguna internet",
+					"Menurunkan kualitas pengalaman pengguna di internet"
+				],
+				"answer": "Menurunkan kualitas pengalaman pengguna di internet"
 			}
 		]
 	}
