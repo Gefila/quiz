@@ -6,7 +6,7 @@ export default function Options({ dispatch, options, answer, option }) {
             {options.map((option, index) => (
                 <button
                     key={index}
-                    className={`btn bg-blue-800 text-white h-auto p-2 rounded-lg text-justify justify-start disabled:text-white whitespace-pre-line  ${
+                    className={`btn bg-blue-800 text-white h-auto p-2 rounded-lg text-justify justify-start disabled:text-white whitespace-pre-line text ${
                         option !== selectedOption && option !== answer
                             ? "disabled:bg-blue-800"
                             : ""

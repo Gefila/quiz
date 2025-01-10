@@ -20,6 +20,7 @@ export default function QuizPage() {
 			judulSoal,
 			tipeSoal,
 			tipeSoalData,
+			counter
 		},
 		dispatch,
 	] = useReducer(reducer, {
@@ -34,6 +35,7 @@ export default function QuizPage() {
 		judulSoal: "Pilih Salah Satu",
 		tipeSoal: "Pilih Salah Satu",
 		tipeSoalData: [],
+		counter: 0,
 	});
 
 	const [daftarSoal, setDaftarSoal] = useState([]);
@@ -75,6 +77,7 @@ export default function QuizPage() {
 					answer: "",
 					option: "",
 					isCorrect: false,
+					counter: 0,
 				};
 			case "back":
 				return {
@@ -105,6 +108,11 @@ export default function QuizPage() {
 				return {
 					...state,
 					name: action.payload,
+				};
+			case "setCounter":
+				return {
+					...state,
+					counter: state.counter + 1 ,
 				};
 			default:
 				throw new Error("Action unknown");
@@ -150,6 +158,11 @@ export default function QuizPage() {
 	}, [status, judulSoal, tipeSoal]);
 
 	useEffect(() => {
+		if (status === "idle") return;
+		document.title = `QuizKuy - ${number + 1}`;
+	}, [number, status]);
+
+	useEffect(() => {
 		const daftarSoal = dataSoal.map((soal) => soal.kelas);
 		setDaftarSoal(daftarSoal);
 	}, []);
@@ -172,6 +185,8 @@ export default function QuizPage() {
 						number={number}
 						score={score}
 						quizDataLength={quizData.soal.length}
+						dispatch={dispatch}
+						counter={counter}
 					/>
 					<Question
 						dispatch={dispatch}
@@ -188,6 +203,7 @@ export default function QuizPage() {
 					score={score}
 					dispatch={dispatch}
 					quizDataLength={quizData.soal.length}
+					counter={counter}
 				/>
 			)}
 		</div>
