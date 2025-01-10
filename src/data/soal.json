@@ -36,10 +36,18 @@
 			},
 			{
 				"id": 5,
-				"tipe": "Soal 61-70",
+				"tipe": "Soal 61-80",
 				"jumlahSoal": {
 					"dari": 61,
 					"sampai": 70
+				}
+			},
+			{
+				"id": 6,
+				"tipe": "Soal 81-100",
+				"jumlahSoal": {
+					"dari": 81,
+					"sampai": 100
 				}
 			}
 		],
@@ -702,10 +710,10 @@
 				"options": [
 					"Ketersediaan konten berkualitas tinggi",
 					"Biaya beriangganan layanan yang tinggi",
-					"Keterbatasan akses intemet di daerah terpencil",
+					"Keterbatasan akses internet di daerah terpencil",
 					"Banyaknya pilihan layanan yang tersedia sehingga membingungkan"
 				],
-				"answer": "Keterbatasan akses intemet di daerah terpencil"
+				"answer": "Keterbatasan akses internet di daerah terpencil"
 			},
 			{
 				"id": 57,
@@ -868,6 +876,364 @@
 					"Menurunkan kualitas pengalaman pengguna di internet"
 				],
 				"answer": "Menurunkan kualitas pengalaman pengguna di internet"
+			},
+			{
+				"id": 71,
+				"question": "Apa yang dimaksud dengan anonimitas dalam konteks kebebasan berbicara?",
+				"options": [
+					"Kemampuan untuk berbicara secara bebas tanpa batasan hukum",
+					"Hak untuk tidak menyampaikan pendapat di ruang publik",
+					"Perlindungan terhadap identitas untuk menghindari pembalasan dan rasa malu",
+					"Hak untuk menjaga kerahasiaan informasi pribadi tanpa terkecuali",
+					"Tidak ada hubungan antara anonimitas dan kebebasan berbicara"
+				],
+				"answer": "Perlindungan terhadap identitas untuk menghindari pembalasan dan rasa malu"
+			},
+			{
+				"id": 72,
+				"question": "Apa perbedaan utama antara VPN dan proxy?",
+				"options": [
+					"VPN hanya melindungi aktivitas di peramban, sementara proxy melindungi semua trafik internet",
+					"Proxy lebih aman daripada VPN",
+					"VPN hanya dapat digunakan di komputer, sementara proxy digunakan di ponsel",
+					"VPN melindungi semua trafik internet, sedangkan proxy hanya melindungi aktivitas di peramban",
+					"Proxy memberikan perlindungan privasi yang lebih baik daripada VPN"
+				],
+				"answer": "VPN melindungi semua trafik internet, sedangkan proxy hanya melindungi aktivitas di peramban"
+			},
+			{
+				"id": 73,
+				"question": "Napster dikenal sebagai pionir dalam hal...",
+				"options": [
+					"Streaming video online",
+					"Streaming Music video kpop",
+					"Penyedia layanan musik offline",
+					"Pencipta software editing musik",
+					"berbagi musik secara bebas"
+				],
+				"answer": "berbagi musik secara bebas"
+			},
+			{
+				"id": 74,
+				"question": "Apa dampak dari peningkatan teknologi digital terhadap penyalinan software?",
+				"options": [
+					"Mendorong kreativitas individu",
+					"Meminimalisir distribusi ilegal software",
+					"Memberikan kontribusi tidak diinginkan dalam menyalin software",
+					"Meningkatkan penjualan software berbayar",
+					"Menurunkan penjualan dan kreativitas individu"
+				],
+				"answer": "Memberikan kontribusi tidak diinginkan dalam menyalin software"
+			},
+			{
+				"id": 75,
+				"question": "Istilah \"Intellectual Property Rights\" dalam bahasa Indonesia merujuk pada...",
+				"options": [
+					"Hak milik pribadi",
+					"Hak cipta musik",
+					"Hak Kekayaan Intelektual",
+					"Hak Milik Properti",
+					"Hak Kepintaran agar tidak membodohi orang lain"
+				],
+				"answer": "Hak Kekayaan Intelektual"
+			},
+			{
+				"id": 76,
+				"question": "Apa perbedaan utama antara merek dagang dan hak cipta?",
+				"options": [
+					"Merek dagang dan hak cipta adalah dua istilah yang sama",
+					"Merek dagang hanya berlaku di negara asalnya, sementara hak cipta perlaku secara global",
+					"Merek dagang melindungi rahasia dagang, sementara hak cipta melindungi teknologi",
+					"Merek dagang melindungi identitas produk atau jasa, sementara hak cipta melindungi karya kreatif orisinal"
+				],
+				"answer": "Merek dagang melindungi identitas produk atau jasa, sementara hak cipta melindungi karya kreatif orisinal"
+			},
+			{
+				"id": 77,
+				"question": "Apa salah satu dampak utama dari pembajakan perangkat lunak terhadap pengembang?",
+				"options": [
+					"Peningkatan pendapatan dan keuntungan",
+					"Mengurangi biaya produksi",
+					"Meningkatkan popularitas produk",
+					"Memperkenalkan nama pengembang ke pengguna secara gratis",
+					"Menurunkan pendapatan dan menghambat inovasi"
+				],
+				"answer": "Menurunkan pendapatan dan menghambat inovasi"
+			},
+			{
+				"id": 78,
+				"question": "apa yang dimaksud dengan hak cipta untuk mendistribusikan salinan?",
+				"options": [
+					"Hak untuk menjual atau mendistribusikan salinan karya kepada publik secara eksklusif",
+					"Hak untuk menggunakan karya orang lain tanpa izin",
+					"Hak untuk mengubah karya orang lain tanpa batas",
+					"Hak untuk membagikan karya ke media sosial tanpa izin",
+					"Hak untuk menghapus karya yang tidak disukai"
+				],
+				"answer": "Hak untuk menjual atau mendistribusikan salinan karya kepada publik secara eksklusif"
+			},
+			{
+				"id": 79,
+				"question": "Apa dampak utama dari pelanggaran hak cipta dalam mendistribusikan salinan?",
+				"options": [
+					"Peningkatan kualitas karya cipta",
+					"Berkurangnya insentif pencipta dan malas untuk membuat karya baru",
+					"Bertambahnya jumlah karya yang dapat dinikmati publik secara gratis",
+					"Meningkatkan keuntungan dari penjualan karya cipta",
+					"Mempermudah kolaborasi antar pencipta"
+				],
+				"answer": "Berkurangnya insentif pencipta dan malas untuk membuat karya baru"
+			},
+			{
+				"id": 80,
+				"question": "Mengapa hak cipta untuk mendemokan ciptaan di depan umum penting?",
+				"options": [
+					"Untuk memastikan pencipta mendapatkan penghargaan dan royalti dari karyanya",
+					"Untuk memungkinkan siapa saja menggunakan karya tersebut secara bebas",
+					"Untuk menghilangkan hak eksklusif pencipta terhadap karyanya",
+					"Untuk mempercepat proses distribusi karya",
+					"Untuk menurunkan nilai ekonomis dari karya tersebut"
+				],
+				"answer": "Untuk memastikan pencipta mendapatkan penghargaan dan royalti dari karyanya"
+			},
+			{
+				"id": 81,
+				"question": "Yang merupakan solusi teknologi untuk mengamankan hak cipta yaitu, kecuali...",
+				"options": [
+					"Pengkodean tanggal kadaluarsa yang rumit atau yang unik",
+					"Penggunaan hardware/dongle",
+					"Skema proteksi Salinan",
+					"Skema Enkripsi dengan DLM (Digital Left Maintenance)",
+					"Fitur Aktivasi"
+				],
+				"answer": "Skema Enkripsi dengan DLM (Digital Left Maintenance)"
+			},
+			{
+				"id": 82,
+				"question": "Pengertian lisensi yang benar adalah...",
+				"options": [
+					"Lisensi adalah hak eksklusif untuk mendistribusikan ciptaan kepada publik tanpa batasan",
+					"Lisensi adalah proses otomatis yang dilakukan untuk memberikan akses kepada siapa saja tanpa memerlukan izin tertulis",
+					"Lisensi adalah bentuk larangan distribusi atau penggunaan ciptaan untuk tujuan komersial",
+					"Lisensi adalah klaim sepihak oleh pemegang hak tanpa keterlibatan pihak lain",
+					"Lisensi adalah izin tertulis yang diberikan oleh Pemegang Hak Cipta atau Pemilik Hak Terkait kepada pihak lain untuk melaksanakan hak ekonomi atas Ciptaannya atau produk Hak Terkait dengan syarat tertentu"
+				],
+				"answer": "Lisensi adalah izin tertulis yang diberikan oleh Pemegang Hak Cipta atau Pemilik Hak Terkait kepada pihak lain untuk melaksanakan hak ekonomi atas Ciptaannya atau produk Hak Terkait dengan syarat tertentu"
+			},
+			{
+				"id": 83,
+				"question": "Mengapa ada kesenjangan antara pengguna dan peneliti dalam pengembang teknologi?",
+				"options": [
+					"Pengguna tidak tertarik dengan inovasi teknologi",
+					"Peneliti tidak menyediakan teknologi yang cukup canggih",
+					"Pengguna tidak mengetahui keberadaan teknologi terbaik atau terbaru ditambah minimnya informasi tentang teknologi",
+					"Peneliti hanya fokus pada keuntungan finansial",
+					"Akademisi menggunakan teknologi terbaru, sedangkan industri tidak"
+				],
+				"answer": "Pengguna tidak mengetahui keberadaan teknologi terbaik atau terbaru ditambah minimnya informasi tentang teknologi"
+			},
+			{
+				"id": 84,
+				"question": "Mengapa teknologi informasi disebut sebagai jembatan dalam transfer teknologi?",
+				"options": [
+					"Karena dapat mempermudah komunikasi antara pihak-pihak yang terlibat",
+					"Karena teknologi informasi hanya digunakan oleh akademisi",
+					"Karena teknologi informasi tidak mempengaruhi kehidupan sehari-hari",
+					"Karena teknologi informasi lebih murah dibandingkan teknologi lain",
+					"Karena dapat mengurangi ketergantungan pada penggunaan teknologi modern"
+				],
+				"answer": "Karena dapat mempermudah komunikasi antara pihak-pihak yang terlibat"
+			},
+			{
+				"id": 85,
+				"question": "Apa yang dimaksud dengan skema outsourcing dalam konteks laboratorium besar?",
+				"options": [
+					"Memindahkan seluruh aktivitas laboratorium ke perusahaan lain",
+					"Melibatkan pihak ketiga untuk menangani aktivitas tertentu dalam laboratorium",
+					"Membangun laboratorium baru dengan tenaga kerja asing",
+					"Mengurangi biaya operasional laboratorium dengan mengurangi pegawai",
+					"Menutup laboratorium besar dan menggantinya dengan usaha kecil"
+				],
+				"answer": "Melibatkan pihak ketiga untuk menangani aktivitas tertentu dalam laboratorium"
+			},
+			{
+				"id": 86,
+				"question": "Bagaimana pengalaman dan reputasi mitra eksternal memengaruhi hasil dari skema outsourcing laboratorium?",
+				"options": [
+					"Memberikan kredibilitas lebih tinggi pada hasil riset",
+					"Menghilangkan kebutuhan validasi internal dari laboratorium",
+					"Mempercepat proses riset tanpa perlu analisis tambahan",
+					"Mengurangi risiko kegagalan dengan menutup proyek kompleks",
+					"Menggantikan seluruh fungsi laboratorium internal"
+				],
+				"answer": "Memberikan kredibilitas lebih tinggi pada hasil riset"
+			},
+			{
+				"id": 87,
+				"question": "Apa tujuan utama dari Intermediate Treatment Facility (ITF)?",
+				"options": [
+					"Mengurangi sampah tanpa menghasilkan energi tambahan",
+					"Menghentikan semua jenis produksi sampah",
+					"Memanfaatkan sampah hanya untuk bahan bangunan",
+					"Mengolah sampah tanpa nilai tambah apapun",
+					"Mengolah sampah menjadi energi terbarukan yang ramah lingkungan"
+				],
+				"answer": "Mengolah sampah menjadi energi terbarukan yang ramah lingkungan"
+			},
+			{
+				"id": 88,
+				"question": "Salah satu keunggulan hiburan digital dibandingkan hiburan konvensional adalah?",
+				"options": [
+					"Lebih mahal tetapi kekinian",
+					"Memerlukan peralatan khusus",
+					"Lebih mudah diakses",
+					"Tidak memerlukan koneksi internet",
+					"Tidak banyak yang menggunakan"
+				],
+				"answer": "Lebih mudah diakses"
+			},
+			{
+				"id": 89,
+				"question": "Berikut ini yang termasuk contoh penyedia layanan HDTV di Indonesia adalah?",
+				"options": [
+					"Netflix, HBO+, dan Disney+ Hotstar",
+					"Indovision, Transvision, dan MNC Vision",
+					"Indosat, Telkomsel, dan XL",
+					"Spotify, Deezer, dan Joox",
+					"Indovision, netflix, dan wetv"
+				],
+				"answer": "Indovision, Transvision, dan MNC Vision"
+			},
+			{
+				"id": 90,
+				"question": "Salah satu dampak negatif film digital terhadap industri perfilman adalah...",
+				"options": [
+					"Mengurangi penggunaan teknologi",
+					"Menurunkan kualitas audio visual",
+					"Memperlambat proses render",
+					"Ketergantungan pada teknologi",
+					"Meningkatkan kreativitas pembuat film"
+				],
+				"answer": "Ketergantungan pada teknologi"
+			},
+			{
+				"id": 91,
+				"question": "Salah satu ciri khas keindahan dalam hiburan digital adalah...",
+				"options": [
+					"Keterbatasan dalam pilihan warna",
+					"Hanya dapat dinikmati melalui media cetak",
+					"Kombinasi antara teknologi dan kreativitas manusia",
+					"Ketergantungan pada metode tradisional",
+					"Penggunaan bahan fisik untuk seni"
+				],
+				"answer": "Kombinasi antara teknologi dan kreativitas manusia"
+			},
+			{
+				"id": 92,
+				"question": "Dalam konteks layanan musik digital, apa yang dimaksud dengan pengguna membeli layanan, bukan musik atau lagu?",
+				"options": [
+					"Pengguna membeli hak penuh atas musik yang diunduh",
+					"Pengguna membeli file musik untuk digunakan secara bebas",
+					"Pengguna membayar untuk mengunduh musik tanpa batasan hak cipta",
+					"Pengguna hanya membeli akses atau lisensi untuk mendengarkan musik melalui platform digital",
+					"Pengguna membeli perangkat keras yang menyimpan musik"
+				],
+				"answer": "Pengguna hanya membeli akses atau lisensi untuk mendengarkan musik melalui platform digital"
+			},
+			{
+				"id": 93,
+				"question": "Apa keuntungan dari model pembelian layanan untuk musik digital bagi penyedia layanan?",
+				"options": [
+					"Penyedia layanan dapat memberikan musik tanpa lisensi resmi",
+					"Pengguna layanan membayar lebih murah untuk setiap lagu",
+					"Pengguna dapat mengunduh musik tanpa batas secara gratis",
+					"Hak cipta menjadi tidak relevan karena pengguna tidak memiliki file musik",
+					"Penyedia layanan tetap memiliki kontrol penuh atas distribusi musik"
+				],
+				"answer": "Penyedia layanan tetap memiliki kontrol penuh atas distribusi musik"
+			},
+			{
+				"id": 94,
+				"question": "Apa yang dimaksud dengan NFT dalam konteks artikel \"Ghozali Everyday, Dari Jadi Miliarder Dadakan Hingga Dibidik Ditjen Pajak\"?",
+				"options": [
+					"Kartu digital untuk transaksi mata uang Non-Flat Transaction",
+					"Sistem pembayaran berbasis bank digital untuk transaksi internasional",
+					"Aset fisik yang terhubung dengan kripto",
+					"Non-Fungible Token, aset digital yang dapat dibeli dengan mata uang kripto dan digunakan sebagai bukti kepemilikan barang",
+					"Mata uang digital yang digunakan untuk membeli barang fisik"
+				],
+				"answer": "Non-Fungible Token, aset digital yang dapat dibeli dengan mata uang kripto dan digunakan sebagai bukti kepemilikan barang"
+			},
+			{
+				"id": 95,
+				"question": "Berikut ini merupakan alasan kenapa peneliti sering gagal memahami kebutuhan pengguna, kecuali...",
+				"options": [
+					"Tidak melibatkan pengguna dalam penelitian",
+					"Kesulitan dalam mengumpulkan data terkait",
+					"Terlalu fokus pada pengembangan fitur baru",
+					"Komunikasi yang sering dilakukan dengan pengguna",
+					"Kurangnya interaksi dengan pengguna"
+				],
+				"answer": "Komunikasi yang sering dilakukan dengan pengguna"
+			},
+			{
+				"id": 96,
+				"question": "Bagaimana teknologi film digital mempengaruhi kreativitas pembuat film?",
+				"options": [
+					"Membatasi variasi dalam pembuatan film",
+					"Membatasi ide cerita yang lebih unik",
+					"Menghapuskan penggunaan efek visual",
+					"Membuka peluang kreativitas tanpa batas",
+					"Mengurangi eksplorasi ide baru"
+				],
+				"answer": "Membuka peluang kreativitas tanpa batas"
+			},
+			{
+				"id": 97,
+				"question": "Manakah yang merupakan bentuk transfer teknologi?",
+				"options": [
+					"Kerjasama penelitian antara universitas dan industri",
+					"Penjualan perangkat elektronik di pasar internasional",
+					"Impor barang mentah untuk produksi lokal",
+					"Penggunaan teknologi lokal tanpa modifikasi"
+				],
+				"answer": "Kerjasama penelitian antara universitas dan industri"
+			},
+			{
+				"id": 98,
+				"question": "Apa yang dimaksud dengan \"fair use\" atau penggunaan wajar dalam konteks hak cipta?",
+				"options": [
+					"Penggunaan karya cipta yang dilindungi hak cipta tanpa izin pemilik hak cipta, selama itu digunakan untuk tujuan komersial",
+					"Penggunaan karya cipta yang dilindungi hak cipta tanpa izin pemilik hak cipta, tetapi hanya untuk tujuan tertentu seperti kritik, komentar, berita, pengajaran, atau penelitian",
+					"Penggunaan karya cipta yang dilindungi hak cipta hanya untuk tujuan pribadi tanpa ada batasan",
+					"Penggunaan karya cipta yang dilindungi hak cipta untuk tujuan menghasilkan karya turunan dengan izin pemilik hak cipta",
+					"Penggunaan karya cipta yang dilindungi hak cipta untuk tujuan mempromosikan produk atau jasa tertentu"
+				],
+				"answer": "Penggunaan karya cipta yang dilindungi hak cipta tanpa izin pemilik hak cipta, tetapi hanya untuk tujuan tertentu seperti kritik, komentar, berita, pengajaran, atau penelitian"
+			},
+			{
+				"id": 99,
+				"question": "Apa yang dimaksud dengan \"Royalti\" dalam konteks Hak Kekayaan Intelektual?",
+				"options": [
+					"Pembayaran yang diberikan kepada pemerintah untuk hak penggunaan kekayaan intelektual",
+					"Pembayaran yang diberikan kepada pemegang hak kekayaan intelektual sebagai imbalan atas izin penggunaan karya atau ciptaan",
+					"Kepemilikan penuh atas suatu karya setelah dibeli oleh pihak lain",
+					"Pengakuan atas hak kekayaan intelektual yang dimiliki oleh individu atau perusahaan",
+					"Proses pendaftaran hak cipta atau paten untuk perlindungan hukum"
+				],
+				"answer": "Pembayaran yang diberikan kepada pemegang hak kekayaan intelektual sebagai imbalan atas izin penggunaan karya atau ciptaan"
+			},
+			{
+				"id": 100,
+				"question": "Masa berlaku hak cipta untuk sebuah program komputer di Indonesia adalah...",
+				"options": [
+					"10 tahun sejak pertama kali dipublikasikan",
+					"25 tahun sejak pertama kali diciptakan",
+					"20 tahun sejak pertama kali dipublikasikan",
+					"50 tahun sejak pertama kali dipublikasikan",
+					"5 tahun sejak pertama kali didaftarkan"
+				],
+				"answer": "50 tahun sejak pertama kali dipublikasikan"
 			}
 		]
 	}
