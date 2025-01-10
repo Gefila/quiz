@@ -20,7 +20,7 @@ export default function QuizPage() {
 			judulSoal,
 			tipeSoal,
 			tipeSoalData,
-			counter
+			counter,
 		},
 		dispatch,
 	] = useReducer(reducer, {
@@ -112,7 +112,7 @@ export default function QuizPage() {
 			case "setCounter":
 				return {
 					...state,
-					counter: state.counter + 1 ,
+					counter: state.counter + 1,
 				};
 			default:
 				throw new Error("Action unknown");
@@ -158,8 +158,13 @@ export default function QuizPage() {
 	}, [status, judulSoal, tipeSoal]);
 
 	useEffect(() => {
-		if (status === "idle") return;
-		document.title = `QuizKuy - ${number + 1}`;
+		if (status === "idle") {
+			document.title = `QuizKuy - Home`;
+		} else if (status === "finish") {
+			document.title = `QuizKuy - Finish`;
+		} else {
+			document.title = `QuizKuy - ${number + 1}`;
+		}
 	}, [number, status]);
 
 	useEffect(() => {
