@@ -12,6 +12,13 @@ export default function Finish({
 }) {
 	useEffect(() => {
 		const quizHistory = JSON.parse(localStorage.getItem("quizHistory")) || [];
+		const listImage = [
+			"/img1.webp",
+			"/img2.jpeg",
+			"/img3.jpeg",
+			"/img4.jpeg",
+			"/img5.jpeg",
+		]
 		const data = {
 			score: `${score}/${quizDataLength}`,
 			name,
@@ -19,6 +26,7 @@ export default function Finish({
 			tipeSoal,
 			counter,
 			date: new Date().toLocaleString(),
+			image: listImage[Math.floor(Math.random() * listImage.length)],
 		};
 		quizHistory.push(data);
 		localStorage.setItem("quizHistory", JSON.stringify(quizHistory));

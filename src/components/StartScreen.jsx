@@ -121,7 +121,12 @@ export default function StartScreen({
 							className="flex flex-col items-start bg-blue-600 p-2 rounded-lg w-full"
 							key={index}
 						>
-							<p className="text-white text-sm font-bold">{`${history.name}, ${history.date}`}</p>
+							<div className="avatar flex items-center">
+								<div className="w-6 rounded-full">
+									<img src={history.image} />
+								</div>
+							<p className="text-white text-sm font-bold ml-1">{`${history.name}, ${history.date}`}</p>
+							</div>
 							<p className="text-white text-sm font-sm">{`${history.judulSoal} (${history.tipeSoal})`}</p>
 							<p className="text-white text-sm font-sm">{`Score: ${
 								history.score
