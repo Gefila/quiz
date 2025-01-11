@@ -12,10 +12,8 @@ export default function StartScreen({
 		JSON.parse(localStorage.getItem("quizHistory")) || []
 	);
 
-	
-
 	return (
-		<div className="flex flex-col items-center rounded-lg gap-5">
+		<div className="flex flex-col items-center rounded-lg gap-5 m-auto">
 			<div className="flex flex-col items-center bg-slate-900 p-5 rounded-lg gap-3">
 				<h1 className="text-white font-bold text-2xl">
 					Selamat Datang di QuizKuy
@@ -107,10 +105,17 @@ export default function StartScreen({
 				</dialog>
 			</div>
 			{quizHistory.length > 0 && (
-				<div
-					className="flex flex-col items-center bg-slate-900 p-2 rounded-lg gap-2 m-5 w-full"
-				>
-					<h1 className="text-white font-bold text-2xl mb-2">History Quiz</h1>
+				<div className="flex flex-col items-center bg-slate-900 p-2 rounded-lg gap-2 m-5 w-full">
+					<h1 className="text-white font-bold text-2xl">History Quiz</h1>
+					<button
+						className="btn btn-sm self-end mb-2"
+						onClick={() => {
+							setQuizHistory([]);
+							localStorage.removeItem("quizHistory");
+						}}
+					>
+						Clear History
+					</button>
 					{quizHistory.map((history, index) => (
 						<div
 							className="flex flex-col items-start bg-blue-600 p-2 rounded-lg w-full"
@@ -118,7 +123,11 @@ export default function StartScreen({
 						>
 							<p className="text-white text-sm font-bold">{`${history.name}, ${history.date}`}</p>
 							<p className="text-white text-sm font-sm">{`${history.judulSoal} (${history.tipeSoal})`}</p>
-							<p className="text-white text-sm font-sm">{`Score: ${history.score} (${Math.floor(history.counter / 60)}m ${history.counter % 60}s)`}</p>
+							<p className="text-white text-sm font-sm">{`Score: ${
+								history.score
+							} (${Math.floor(history.counter / 60)}m ${
+								history.counter % 60
+							}s)`}</p>
 						</div>
 					))}
 				</div>
