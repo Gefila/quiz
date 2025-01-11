@@ -39,7 +39,7 @@
 				"tipe": "Soal 61-80",
 				"jumlahSoal": {
 					"dari": 61,
-					"sampai": 70
+					"sampai": 80
 				}
 			},
 			{
@@ -48,6 +48,13 @@
 				"jumlahSoal": {
 					"dari": 81,
 					"sampai": 100
+				}
+			},{
+				"id": 7,
+				"tipe": "100 Soal Random",
+				"jumlahSoal": {
+					"dari": 1,
+					"sampai": 10
 				}
 			}
 		],

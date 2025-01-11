@@ -138,6 +138,7 @@ export default function QuizPage() {
 			(tipe) => tipe.tipe === tipeSoal
 		).jumlahSoal;
 		if (sampai > findJudulSoal.soal.length) sampai = findJudulSoal.soal.length;
+		if(tipeSoal === "100 Soal Random") fisherYatesShuffle(findJudulSoal.soal);
 		var soalSliced = findJudulSoal.soal.slice(dari - 1, sampai);
 
 		const randomSoal = [...soalSliced];
@@ -173,7 +174,7 @@ export default function QuizPage() {
 	}, []);
 
 	return (
-		<div className="flex w-full min-h-screen justify-center items-center bg-slate-950">
+		<div className="flex w-full min-h-screen justify-center items-start py-5 bg-slate-950">
 			{status === "idle" && (
 				<StartScreen
 					dispatch={dispatch}
@@ -209,6 +210,9 @@ export default function QuizPage() {
 					dispatch={dispatch}
 					quizDataLength={quizData.soal.length}
 					counter={counter}
+					name={name}
+					judulSoal={judulSoal}
+					tipeSoal={tipeSoal}
 				/>
 			)}
 		</div>
