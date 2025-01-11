@@ -4,7 +4,7 @@
 		"tipeSoal": [
 			{
 				"id": 1,
-				"tipe": "Semua Soal",
+				"tipe": "Semua Soal(171)",
 				"jumlahSoal": {
 					"dari": 1,
 					"sampai": 999
@@ -64,6 +64,30 @@
 				"jumlahSoal": {
 					"dari": 101,
 					"sampai": 120
+				}
+			},
+			{
+				"id": 9,
+				"tipe": "Soal 121-140",
+				"jumlahSoal": {
+					"dari": 121,
+					"sampai": 140
+				}
+			},
+			{
+				"id": 10,
+				"tipe": "Soal 141-160",
+				"jumlahSoal": {
+					"dari": 141,
+					"sampai": 160
+				}
+			},
+			{
+				"id": 11,
+				"tipe": "Soal 161-171",
+				"jumlahSoal": {
+					"dari": 161,
+					"sampai": 171
 				}
 			}
 		],
@@ -1479,7 +1503,7 @@
 				"answer": "Mengklik tautan yang diterima"
 			},
 			{
-				"id": 120,
+				"id": 121,
 				"question": "Salah satu tujuan dari kebebasan berbicara adalah untuk...",
 				"options": [
 					"Menghancurkan reputasi orang lain",
@@ -1491,7 +1515,7 @@
 				"answer": "Mendorong dialog dan diskusi publik"
 			},
 			{
-				"id": 121,
+				"id": 122,
 				"question": "Apa saja bentuk transfer yang umum terjadi?",
 				"options": [
 					"Pelatihan tenaga kerja, teknologi water jet cutting, dan alih pengetahuan teknis",
@@ -1503,7 +1527,7 @@
 				"answer": "Pelatihan tenaga kerja, teknologi water jet cutting, dan alih pengetahuan teknis"
 			},
 			{
-				"id": 122,
+				"id": 123,
 				"question": "Manakah dari berikut ini yang bukan merupakan faktor yang mempengaruhi keberhasilan transfer teknologi?",
 				"options": [
 					"Kemampuan sumber daya manusia yang memadai",
@@ -1515,7 +1539,7 @@
 				"answer": "Jarak geografis antara pemberi dan penerima"
 			},
 			{
-				"id": 123,
+				"id": 124,
 				"question": "Apa tujuan utama transfer",
 				"options": [
 					"Meningkatkan keuntungan finansial",
@@ -1527,7 +1551,7 @@
 				"answer": "Meningkatkan kemampuan teknis dan inovasi"
 			},
 			{
-				"id": 124,
+				"id": 125,
 				"question": "Sebuah perusahaan multinasional memutuskan untuk mentransfer teknologi terbaru ke salah satu cabang mereka di negara berkembang. Namun, setelah teknologi tersebut diterapkan, hasil produksi tetap rendah karena kurangnya tenaga kerja yang terampil. Apa langkah pertama yang sebaiknya dilakukan perusahaan untuk mengatasi masalah tersebut?",
 				"options": [
 					"Mengimpor tenaga kerja dari negara asal teknologi",
@@ -1539,7 +1563,7 @@
 				"answer": "Mengadakan pelatihan intensif bagi tenaga kerja lokal perusahaan"
 			},
 			{
-				"id": 125,
+				"id": 126,
 				"question": "Dalam konteks keuangan dan perbankan, salah satu manfaat utama penambangan data adalah...",
 				"options": [
 					"Menentukan interval waktu pada data deret waktu tertentu",
@@ -1549,6 +1573,533 @@
 					"Mengidentifikasi pola transaksi untuk mendeteksi potensi tindakan penipuan"
 				],
 				"answer": "Mengidentifikasi pola transaksi untuk mendeteksi potensi tindakan penipuan"
+			},
+			{
+				"id": 127,
+				"question": "Apa yang dimaksud dengan Hak Kekayaan Intelektual?",
+				"options": [
+					"hak hukum untuk memiliki properti fisik seperti rumah dan tanah",
+					"hak untuk menggunakan barang dagangan milik orang lain",
+					"hak hukum atas karya cipta, inovasi, atau kreasi di bidang intelektual, seperti hak cipta dan hak paten",
+					"kebebasan menggunakan karya siapa saja tanpa izin penciptanya",
+					"hak untuk menjual barang tiruan di pasar"
+				],
+				"answer": "hak hukum atas karya cipta, inovasi, atau kreasi di bidang intelektual, seperti hak cipta dan hak paten"
+			},
+			{
+				"id": 128,
+				"question": "Bagaimana pengadilan memutuskan kasus Napster terkait pelanggaran hak cipta?",
+				"options": [
+					"Napster dianggap sebagai platform yang sah karena mempelopori teknologi berbagi musik melalui jaringan",
+					"Napster tidak bersalah karena pengguna memanfaatkan layanan tersebut untuk fair-use",
+					"Napster diputuskan bersalah karena membantu dan memfasilitasi pelanggaran hak cipta",
+					"Napster dianggap tidak bertanggung jawab atas tindakan pengguna yang melanggar hukum",
+					"Napster dibebaskan karena tujuannya adalah untuk membangun komunitas artis"
+				],
+				"answer": "Napster diputuskan bersalah karena membantu dan memfasilitasi pelanggaran hak cipta"
+			},
+			{
+				"id": 129,
+				"question": "Seorang desainer grafis bernama Andi membuat logo unik untuk sebuah perusahaan startup yang bergerak di bidang teknologi. Logo tersebut telah digunakan Oleh perusahaan tersebut selama lebih dari satu tahun. Suatu hari, Andi mengetahui bahwa salah satu pesaing perusahaan tersebut mulai menggunakan logo yang hampir identik dengan logo yang dia desain, meskipun tidak ada perjanjian lisensi atau kerja sama yang menyatakan bahwa desain tersebut dapat digunakan Oleh perusahaan lain. Menurut hukum hak kekayaan intelektual, tindakan pesaing perusahaan Andi tersebut dapat dikategorikan sebagai...",
+				"options": [
+					"Pelanggaran hak cipta, karena logo yang digunakan adalah hasil karya original Andi",
+					"Pelanggaran paten, karena desain logo dianggap sebagai penemuan baru dalam industri teknologi",
+					"Pelanggaran merek dagang, karena logo yang digunakan sangat mirip dan dapat menyebabkan kebingungannya masyarakat",
+					"Pelanggaran hak desain industri, karena logo tersebut dianggap sebagai produk industri yang dilindungi Oleh desain yang terdaftar",
+					"Tidak ada pelanggaran apapun"
+				],
+				"answer": "Pelanggaran merek dagang, karena logo yang digunakan sangat mirip dan dapat menyebabkan kebingungan masyarakat"
+			},
+			{
+				"id": 130,
+				"question": "Apa yang dimaksud dengan Hak Kekayaan Intelektual (HKI)?",
+				"options": [
+					"Hak yang timbul dari hasil olah pikir yang menghasilkan produk atau proses berguna untuk manusia",
+					"Hak untuk mendapatkan penghasilan dari aset pribadi",
+					"Hak eksklusif untuk mendistribusikan barang secara luas",
+					"Hak untuk melanggar undang-undang jika diperlukan",
+					"Hak untuk melanggar hak cipta"
+				],
+				"answer": "Hak yang timbul dari hasil olah pikir yang menghasilkan produk atau proses berguna untuk manusia"
+			},
+			{
+				"id": 131,
+				"question": "Salah satu solusi teknologi untuk melindungi Hak Cipta adalah",
+				"options": [
+					"Membuka akses distribusi secara bebas",
+					"Meningkatkan pelanggaran hak cipta",
+					"Menurunkan harga produk secara signifikan",
+					"Meningkatkan kualitas duplikasi",
+					"Menggunakan skema enkripsi DRM"
+				],
+				"answer": "Menggunakan skema enkripsi DRM"
+			},
+			{
+				"id": 132,
+				"question": "Salah satu kasus kekayaan intelektual di Indonesia adalah Radja Band menggugat tempat karaoke. Apa alasan utama mereka menggugat?",
+				"options": [
+					"Pelanggaran hak cipta",
+					"Pencurian data secara ilegal",
+					"Tempat karaoke sering digunakan untuk melakukan aksi mesum yang tidak sesuai dengan visi misi band Radja yang berahlak baik dan rajin beribadah",
+					"Tidak mendapatkan royalti dari lagu mereka yang digunakan tempat karaoke",
+					"Lagu mereka dihapus tanpa izin Oleh tempat karaoke"
+				],
+				"answer": "Tidak mendapatkan royalti dari lagu mereka yang digunakan tempat karaoke"
+			},
+			{
+				"id": 133,
+				"question": "Apa tujuan utama dari perlindungan Hak Atas Kekayaan Intelektual?",
+				"options": [
+					"Memberikan penghargaan kepada pencipta atas karya intelektual mereka",
+					"Mengkontrol harga barang dan jasa di pasar",
+					"Meningkatkan konsumsi produk lokal",
+					"Membatasi persaingan dalam perdagangan global",
+					"Mengatur potensi perpajakan atas hasil kreativitas"
+				],
+				"answer": "Memberikan penghargaan kepada pencipta atas karya intelektual mereka"
+			},
+			{
+				"id": 134,
+				"question": "Hak atas kekayaan intelektual adalah hak yang diberikan Oleh negara kepada individu atau badan hukum atas karya yang...",
+				"options": [
+					"Diambil dari karya orang lain tanpa izin",
+					"Berupa aset fisik dan berwujud nyata",
+					"Tidak memiliki nilai ekonomi",
+					"Berasal dari warisan budaya secara turun-temurun",
+					"Memiliki nilai ekonomi dan dihasilkan dari kreativitas"
+				],
+				"answer": "Memiliki nilai ekonomi dan dihasilkan dari kreativitas"
+			},
+			{
+				"id": 135,
+				"question": "Hak yang tidak termasuk dalam kekayaan intelektual adalah....",
+				"options": [
+					"kebebasan berpendapat",
+					"hak cipta",
+					"paten",
+					"merek dagang",
+					"seni tari"
+				],
+				"answer": "kebebasan berpendapat"
+			},
+			{
+				"id": 136,
+				"question": "Jenis pelanggaran kekayaan intelektual yang paling umum adalah....",
+				"options": ["hak cipta", "asusila", "HAM", "norma", "offside"],
+				"answer": "hak cipta"
+			},
+			{
+				"id": 137,
+				"question": "Wajanbolic e-goen adalah sebuah antena nirkabel yang terbuat dari wajan dan paralon. Antena Wajan, atau Wajanbolic e-goen merupakan terobosan dalam Teknologi RT/RW-net. Antena ini banyak digunakan dalam Infrastruktur Jaringan RT/RW-net . Teknologi Wajanbolic ini ditemukan oleh...",
+				"options": [
+					"Bapak Gunadi",
+					"Drs. Djaetun H.S.",
+					"Onno W. Purbo",
+					"Bapak Gunawan",
+					"Bapak Goenawan Brotosaputro"
+				],
+				"answer": "Onno W. Purbo"
+			},
+			{
+				"id": 138,
+				"question": "Berikut ini merupakan alasan mengapa iPhone dianggap lebih aman dibandingkan Android adalah.....",
+				"options": [
+					"iPhone menggunakan hardware yang tidak bisa ditembus virus",
+					"teknologi anti-copy di iPhone",
+					"iPhone tidak dapat diretas sedangkan Android mudah diretas",
+					"sistem operasi iPhone bersifat close source dan selektif terhadap aplikasi yang disediakan"
+				],
+				"answer": "sistem operasi iPhone bersifat close source dan selektif terhadap aplikasi yang disediakan"
+			},
+			{
+				"id": 139,
+				"question": "Siapa yang dapat menjadi hacker...",
+				"options": [
+					"mahasiswa",
+					"programmer terampil",
+					"agen pemerintah",
+					"anonymous",
+					"semua jawaban benar"
+				],
+				"answer": "semua jawaban benar"
+			},
+			{
+				"id": 140,
+				"question": "Berikut ini yang termasuk tanda-tanda ponsel kita telah di-hack, kecuali...",
+				"options": [
+					"munculnya aplikasi yang tidak dikenal",
+					"ponsel menjadi panas dan baterai cepat habis",
+					"notifikasi aplikasi berhenti",
+					"sering muncul iklan",
+					"saldo BRIMo tiba-tiba hilang"
+				],
+				"answer": "notifikasi aplikasi berhenti"
+			},
+			{
+				"id": 141,
+				"question": "Di bawah ini yang merupakan salah satu solusi yang paling tepat untuk mengatasi man in the middle attack adalah...",
+				"options": [
+					"mengubah kata sandi/ password",
+					"melakukan enkripsi pesan",
+					"memblokir akses ponsel",
+					"melakukan pembaruan sistem",
+					"memasang antivirus"
+				],
+				"answer": "melakukan enkripsi pesan"
+			},
+			{
+				"id": 142,
+				"question": "Apa bahaya utama menggunakan Wi-Fi gratis di tempat umum?",
+				"options": [
+					"kecepatan internet lebih lambat dan menjadi terbatas pada perangkat tertentu",
+					"risiko data pribadi dicuri melalui pengawasan jaringan",
+					"Wi-Fi dapat terputus secara tiba-tiba",
+					"Penggunaan Wi-Fi gratis dapat menyebabkan perangkat lebih cepat panas",
+					"Pemilik wifi gratis menjadi kesal"
+				],
+				"answer": "risiko data pribadi dicuri melalui pengawasan jaringan"
+			},
+			{
+				"id": 143,
+				"question": "Berikut ini yang dilakukan Oleh Man in the Middle Attack adalah...",
+				"options": [
+					"mendengarkan komunikasi antara dua pihak tanpa izin",
+					"menyebarkan virus komputer melalui komunikasi",
+					"memutus jaringan intemet dua pihak",
+					"mempercepat pengiriman data",
+					"munculnya kecemburuan karena disadap"
+				],
+				"answer": "mendengarkan komunikasi antara dua pihak tanpa izin"
+			},
+			{
+				"id": 144,
+				"question": "Tingkatan ilmu hacker paling rendah biasanya merujuk pada seseorang yang baru tertarik untuk menjadi hacker dan mencari tutorial-tutorial untuk melakukan hack, yaitu...",
+				"options": [
+					"developed kiddie",
+					"script kiddie",
+					"lamer",
+					"semi elite",
+					"elite"
+				],
+				"answer": "lamer"
+			},
+			{
+				"id": 145,
+				"question": "Perhatikan tingkatan ilmu hacker di bawah ini: \n(1) Script Kiddie\n(2) Elite\n(3) Lamer\n(4) Developed Kiddie\n(5) Semi Elite \nBerdasarkan tingkatan-tingkatan ilmu hacker di atas, di bawah ini yang merupakan urutan tingkatan ilmu hacker yang benar dari yang paling tinggi adalah...",
+				"options": [
+					"(3) - (1) - (4) - (5) - (2)",
+					"(1) - (4) - (3) - (5) - (2)",
+					"(2) - (5) - (3) - (4) - (1)",
+					"(2) - (5) - (4) - (1) - (3)",
+					"(2) - (5) - (1) - (4) - (3)"
+				],
+				"answer": "(2) - (5) - (1) - (4) - (3)"
+			},
+			{
+				"id": 146,
+				"question": "Di bawah ini yang termasuk cara hacker mendapatkan data target melalui Wi-Fi gratis, yaitu...",
+				"options": [
+					"mengirim email palsu ke target",
+					"mengakses akun media sosial target",
+					"mencuri kartu ATM target",
+					"menginstal aplikasi berbahaya di komputer target",
+					"menggunakan aplikasi pengintai jaringan seperti Wireshark"
+				],
+				"answer": "menggunakan aplikasi pengintai jaringan seperti Wireshark"
+			},
+			{
+				"id": 147,
+				"question": "Sebuah materi dianggap obscene (cabul) apabila dijumpai hal-hal di bawah ini, kecuali...",
+				"options": [
+					"Menggambarkan tindakan seksual yang secara khusus dilarang Oleh hukum negara",
+					"Mengandung nilai sastra, artistik, sosial, politik, atau ilmiah yang serius",
+					"Secara terang-terangan menggambarkan sikap tidak sopan, menjijikkan, menunjukkan sikap penuh birahi sebagaimana dinilai seseorang yang berakal sehat dengan menggunakan standar komunitas",
+					"Tidak mengandung nilai sastra, artistik, sosial, politik, atau ilmiah yang serius"
+				],
+				"answer": "Mengandung nilai sastra, artistik, sosial, politik, atau ilmiah yang serius"
+			},
+			{
+				"id": 148,
+				"question": "Untuk melindungi anak-anak dari konten tidak pantas di intemet, fitur yang dapat digunakan adalah...",
+				"options": [
+					"VPN (Virtual Private Network)",
+					"Proxy",
+					"Firewall",
+					"Software pemfilter",
+					"DNS Google"
+				],
+				"answer": "Software pemfilter"
+			},
+			{
+				"id": 149,
+				"question": "Di bawah ini yang merupakan hal-hal yang mesti dipertimbangkan dalam memastikan konten yang berharga dan beragam di internet adalah....",
+				"options": [
+					"Keseimbangan antara informasi komersial dengan pendidikan",
+					"Menghapus semua konten digital yang mengandung unsur komersial",
+					"Hanya menyediakan situs yang memiliki konten kenegaraan dan tidak ada seni budaya",
+					"Menjadikan pajak sebagai satu-satunya alat untuk mengatur konten digital",
+					"Perbanyak konten menghibur di tik tok"
+				],
+				"answer": "Keseimbangan antara informasi komersial dengan pendidikan"
+			},
+			{
+				"id": 150,
+				"question": "Perhatikan beberapa web di bawah ini:\n(1) Illegal Trade\n(2) Medical Records\n(3) Research Paper\n(4) Google\n(5) Non Indexed Content\nDari beberapa web di atas, yang termasuk deep web adalah",
+				"options": [
+					"(1) - (2) - (3)",
+					"(1) - (2) - (5)",
+					"(2) - (3) - (4)",
+					"(2) - (3) - (5)",
+					"(1) - (2) - (3) - (5)"
+				],
+				"answer": "(2) - (3) - (5)"
+			},
+			{
+				"id": 151,
+				"question": "Berikut ini yang merupakan solusi spam yang tepat yaitu...",
+				"options": [
+					"Teknologi: memaksimalkan spam",
+					"Kebijakan Bisnis: atas kebijaksanaan penerima, semua e-mail spam dapat dikenakan microfee.",
+					"Hukum: membuat aturan pembatasan yang tidak konsisten",
+					"Vigilantism: menghukum spammers dengan mengganti password",
+					"Membuat daftar putih (white list) semua spammers"
+				],
+				"answer": "Kebijakan Bisnis: atas kebijaksanaan penerima, semua e-mail spam dapat dikenakan microfee."
+			},
+			{
+				"id": 152,
+				"question": "Berikut ini yang termasuk dalam Hak atas Kekayaan Intelektual adalah...",
+				"options": [
+					"Hak Asasi Manusia",
+					"Hak Paten, Hak Cipta, dan Merek Dagang",
+					"Hak Kebebasan Berpendapat",
+					"Hak Kepemilikan Rumah / Property",
+					"Hak Memilih Wakil Rakyat"
+				],
+				"answer": "Hak Paten, Hak Cipta, dan Merek Dagang"
+			},
+			{
+				"id": 153,
+				"question": "Hak atas Kekayaan Intelektual yang melindungi nama, simbol, atau desain yang membedakan produk atau jasa disebut",
+				"options": [
+					"paten",
+					"hak cipta",
+					"desain industri",
+					"undang-undang rahasia dagang",
+					"merek dagang"
+				],
+				"answer": "merek dagang"
+			},
+			{
+				"id": 154,
+				"question": "Jika seseorang ingin melindungi karya seni seperti lukisan atau foto, maka ia harus mendaftarkan karya tersebut untuk mendapatkan...",
+				"options": [
+					"hak cipta",
+					"paten",
+					"merek dagang",
+					"desain industri",
+					"undang-undang rahasia dagang"
+				],
+				"answer": "hak cipta"
+			},
+			{
+				"id": 155,
+				"question": "Berikut ini merupakan sikap yang menghargai hasil karya orang lain, kecuali...",
+				"options": [
+					"Ruben Onsu menggunakan logo dan nama usaha yang berbeda dengan merek \"Geprek Bensu\" milik Benny Sujono",
+					"tidak menggunakan hasil karya orang lain untuk tindakan kriminal atau kejahatan",
+					"tidak memodifikasi, mengurangi, atau menambah hasil karya tanpa seizin perusahaan atau pemilik",
+					"membeli lisensi perangkat lunak di website resmi atau official partner",
+					"menggunakan perangkat lunak bajakan karena harganya lebih murah, bahkan gratis"
+				],
+				"answer": "menggunakan perangkat lunak bajakan karena harganya lebih murah, bahkan gratis"
+			},
+			{
+				"id": 156,
+				"question": "Contoh yang termasuk pelanggaran Hak atas Kekayaan Intelektual adalah...",
+				"options": [
+					"membeli produk asli dari luar negeri",
+					"menggunakan perangkat lunak bajakan",
+					"membuat desain baru yang terinspirasi dari karya lain",
+					"mendaftar hak cipta atas karya sendiri"
+				],
+				"answer": "menggunakan perangkat lunak bajakan"
+			},
+			{
+				"id": 157,
+				"question": "Teknologi baru mempermudah distribusi karya karena...",
+				"options": [
+					"biaya duplikasi rendah, tetapi kualitas sering menurun",
+					"kualitas salinan digital hampir tidak berbeda dari aslinya",
+					"harga distribusi yang terjangkau dan kapasitas bandwidth meningkat",
+					"proses distribusi membutuhkan waktu lebih lama dengan teknologi canggih",
+					"pengkodean menjadi mudah"
+				],
+				"answer": "harga distribusi yang terjangkau dan kapasitas bandwidth meningkat"
+			},
+			{
+				"id": 158,
+				"question": "Yang biasanya terlibat dalam proses transfer teknologi antara negara berkembang dan negara maju adalah...",
+				"options": [
+					"hanya perusahaan besar di negara maju",
+					"hanya pemerintah negara berkembang",
+					"pemerintah, universitas, dan sektor swasta dari kedua negara",
+					"lembaga non-pemerintah di negara berkembang",
+					"lembaga pemerintah di negara maju"
+				],
+				"answer": "pemerintah, universitas, dan sektor swasta dari kedua negara"
+			},
+			{
+				"id": 159,
+				"question": "Apa peran universitas dalam transfer teknologi?",
+				"options": [
+					"menjadi konsumen teknologi terbaru",
+					"meneliti, mengembangkan, dan menyediakan teknologi",
+					"membeli teknologi dari perusahaan",
+					"menjadi distributor teknologi ke masyarakat",
+					"mendidik mahasiswa"
+				],
+				"answer": "meneliti, mengembangkan, dan menyediakan teknologi"
+			},
+			{
+				"id": 160,
+				"question": "Di bawah ini yang merupakan teknologi yang dapat membantu bidang medis dalam mengklasifikasikan masalah kesehatan adalah...",
+				"options": [
+					"komputasi paralel",
+					"pemrosesan sinyal digital",
+					"teknologi 6G",
+					"computer vision/graphics",
+					"jaringan terdistribusi"
+				],
+				"answer": "computer vision/graphics"
+			},
+			{
+				"id": 161,
+				"question": "Yang merupakan batasan/kesenjangan the gap dalam teknologi di bawah ini, kecuali...",
+				"options": [
+					"ketidahketahuan pengguna pada teknologi yang sedang tren",
+					"ketidahketahuan pengguna pada bagaimana mengevaluasi teknologi",
+					"ketidahketahuan peneliti pada apa keinginan pengguna",
+					"jembatan untuk menyebrangi kesenjangan antara pengguna dan peneliti"
+				],
+				"answer": "jembatan untuk menyebrangi kesenjangan antara pengguna dan peneliti"
+			},
+			{
+				"id": 162,
+				"question": "Berikut ini cara untuk meningkatkan kualitas hidup dalam transfer teknologi, kecuali...",
+				"options": [
+					"Computer Aided Design (CAD)",
+					"Massive Parallel Computing",
+					"Computer Graphic",
+					"Proyek TI dari gabungan teknologi dan ahli"
+				],
+				"answer": "Proyek TI dari gabungan teknologi dan ahli"
+			},
+			{
+				"id": 163,
+				"question": "Jenis hiburan digital yang melibatkan bermain video game disebut...",
+				"options": [
+					"podcasting",
+					"streaming",
+					"gaming",
+					"blogging",
+					"flitring"
+				],
+				"answer": "gaming"
+			},
+			{
+				"id": 164,
+				"question": "Layanan hiburan digital yang menyediakan film dan serial TV untuk streaming adalah...",
+				"options": ["Instagram", "TikTok", "Canva", "Google Drive", "Netflix"],
+				"answer": "Netflix"
+			},
+			{
+				"id": 165,
+				"question": "Penyedia layanan HDTV yang menawarkan siaran melalui TV kabel dan satelit di Indonesia adalah...",
+				"options": ["MNC Play", "Netflix", "Vidio", "UseeTV", "Youtube"],
+				"answer": "MNC Play"
+			},
+			{
+				"id": 166,
+				"question": "Berikut ini yang merupakan pengertian movie render farm, yaitu...",
+				"options": [
+					"kumpulan komputer atau server yang terhubung untuk rendering gambar atau video",
+					"studio animasi yang memproduksi film dan acara tv",
+					"perangkat keras untuk menyimpan data film digital",
+					"software untuk mengedit film secara manual"
+				],
+				"answer": "kumpulan komputer atau server yang terhubung untuk rendering gambar atau video"
+			},
+			{
+				"id": 167,
+				"question": "Video game dapat dimainkan di platform berikut, kecuali...",
+				"options": [
+					"komputer pribadi (PC)",
+					"konsol gaming",
+					"peralatan genggam",
+					"mesin ketik elektronik",
+					"laptop"
+				],
+				"answer": "mesin ketik elektronik"
+			},
+			{
+				"id": 168,
+				"question": "Pusat download untuk peralatan genggam menyediakan layanan berikut, kecuali...",
+				"options": [
+					"mengunduh aplikasi hiburan digital",
+					"rekomendasi kepada pemilik perangkat mencari aplikasi yang sesuai profilnya",
+					"mengunduh driver perangkat keras komputer",
+					"memberikan akses ke game, musik, atau film"
+				],
+				"answer": "mengunduh driver perangkat keras komputer"
+			},
+			{
+				"id": 169,
+				"question": "(1) Kurangnya dana untuk penelitian dan pengembangan.\n(2) Kurangnya tenaga ahli yang terampil.\n(3) Perbedaan ilmu pengetahuan antar pengajar\n(4) Perbedaan tujuan antara industri dan akademisi.\n(5) Kurangnya minat orang dalam belajar hal baru.\nDari pemyataan tersebut manakah kendala utama dalam transfer teknologi?",
+				"options": [
+					"(1),(2),(3)",
+					"(2),(3),(4)",
+					"(1),(2),(5)",
+					"(2),(3),(5)",
+					"(1),(2),(4)"
+				],
+				"answer": "(1),(2),(4)"
+			},
+			{
+				"id": 170,
+				"question": "Apa yang dimaksud dengan PLTSa?",
+				"options": [
+					"Pembangkit Listrik Tenaga Surya air",
+					"Pembangkit Listrik Tenaga Sampah",
+					"Pembangkit Listrik Tenaga Saluran air",
+					"Pembangkit Listrik Tenaga Solar aman",
+					"Pembangkit Listrik Tenaga Sungai air"
+				],
+				"answer": "Pembangkit Listrik Tenaga Sampah"
+			},
+			{
+				"id": 171,
+				"question": "Apa yang dimaksud dengan komersialisasi teknologi?",
+				"options": [
+					"Proses memindahkan teknologi dari laboratorium ke industri",
+					"Proses menjual teknologi ke pasar modem",
+					"Proses mengembangkan inovasi terbaru",
+					"Proses meneliti suatu teknologi",
+					"Proses menerapkan teknologi dalam bersosialisasi"
+				],
+				"answer": "Proses memindahkan teknologi dari laboratorium ke industri"
+			},
+			{
+				"id": 172,
+				"question": "Apa yang dimaksud dengan Intermediate Treatment Facility (ITF)?",
+				"options": [
+					"Fasilitas pengolahan limbah industri",
+					"Fasilitas pengolahan air bersih",
+					"Fasilitas pengolahan sampah",
+					"Fasilitas pengolahan limbah padat",
+					"Fasilitas pengolahan limbah organik"
+				],
+				"answer": "Fasilitas pengolahan sampah"
 			}
 		]
 	}
