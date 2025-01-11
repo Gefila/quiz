@@ -57,12 +57,13 @@
 					"dari": 81,
 					"sampai": 100
 				}
-			},{
-				"id":8,
-				"tipe":"Soal 101-120",
-				"jumlahSoal":{
-					"dari":101,
-					"sampai":120
+			},
+			{
+				"id": 8,
+				"tipe": "Soal 101-120",
+				"jumlahSoal": {
+					"dari": 101,
+					"sampai": 120
 				}
 			}
 		],
@@ -1491,110 +1492,63 @@
 			},
 			{
 				"id": 121,
-				"question": "",
-				"options": [],
-				"answer": ""
+				"question": "Apa saja bentuk transfer yang umum terjadi?",
+				"options": [
+					"Pelatihan tenaga kerja, teknologi water jet cutting, dan alih pengetahuan teknis",
+					"bahan baku tanpa pengembangan teknologi",
+					"Penghapusan paten untuk bebas teknologi",
+					"Penjualan produk jadi tanpa informasi teknis",
+					"Pengembangan teknologi tanpa kerja sama dengan pihak lain"
+				],
+				"answer": "Pelatihan tenaga kerja, teknologi water jet cutting, dan alih pengetahuan teknis"
 			},
 			{
 				"id": 122,
-				"question": "",
-				"options": [],
-				"answer": ""
+				"question": "Manakah dari berikut ini yang bukan merupakan faktor yang mempengaruhi keberhasilan transfer teknologi?",
+				"options": [
+					"Kemampuan sumber daya manusia yang memadai",
+					"Ketersediaan dana penelitian dan pengembangan yang cukup",
+					"Kerjasama antara akademisi, industri, dan pemerintah yang terjalin baik",
+					"Jarak geografis antara pemberi dan penerima",
+					"Regulasi dan kebijakan pemerintah"
+				],
+				"answer": "Jarak geografis antara pemberi dan penerima"
 			},
 			{
 				"id": 123,
-				"question": "",
-				"options": [],
-				"answer": ""
+				"question": "Apa tujuan utama transfer",
+				"options": [
+					"Meningkatkan keuntungan finansial",
+					"Meningkatkan kemampuan teknis dan inovasi",
+					"Mengurangi ketergantungan pada teknologi lama",
+					"Membatasi persaingan industri",
+					"Menghambat pertumbuhan ekonomi"
+				],
+				"answer": "Meningkatkan kemampuan teknis dan inovasi"
 			},
 			{
 				"id": 124,
-				"question": "",
-				"options": [],
-				"answer": ""
+				"question": "Sebuah perusahaan multinasional memutuskan untuk mentransfer teknologi terbaru ke salah satu cabang mereka di negara berkembang. Namun, setelah teknologi tersebut diterapkan, hasil produksi tetap rendah karena kurangnya tenaga kerja yang terampil. Apa langkah pertama yang sebaiknya dilakukan perusahaan untuk mengatasi masalah tersebut?",
+				"options": [
+					"Mengimpor tenaga kerja dari negara asal teknologi",
+					"Mengadakan pelatihan intensif bagi tenaga kerja lokal perusahaan",
+					"Mengganti teknologi dengan yang lebih sederhana",
+					"Menunda implementasi teknologi hingga tenaga kerja terampil tersedia",
+					"Menambah tenaga kerja agar menjadi lebih efisien"
+				],
+				"answer": "Mengadakan pelatihan intensif bagi tenaga kerja lokal perusahaan"
 			},
 			{
 				"id": 125,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 126,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 127,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 128,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 129,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 130,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 131,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 132,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 133,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 134,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 135,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 136,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 137,
-				"question": "",
-				"options": [],
-				"answer": ""
-			},
-			{
-				"id": 138,
-				"question": "",
-				"options": []
+				"question": "Dalam konteks keuangan dan perbankan, salah satu manfaat utama penambangan data adalah...",
+				"options": [
+					"Menentukan interval waktu pada data deret waktu tertentu",
+					"Membuat data keuangan historis menjadi tidak relevan",
+					"Mengurangi kebutuhan analisis risiko kredit",
+					"Menghapus anomali dari seluruh transaksi",
+					"Mengidentifikasi pola transaksi untuk mendeteksi potensi tindakan penipuan"
+				],
+				"answer": "Mengidentifikasi pola transaksi untuk mendeteksi potensi tindakan penipuan"
 			}
 		]
 	}
