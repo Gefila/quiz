@@ -88,6 +88,7 @@ export default function QuizPage() {
 					option: "",
 					isCorrect: false,
 					status: "idle",
+					counter: 0,
 				};
 			case "setSoal":
 				return {
