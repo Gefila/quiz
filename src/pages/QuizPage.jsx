@@ -89,6 +89,8 @@ export default function QuizPage() {
 					isCorrect: false,
 					status: "idle",
 					counter: 0,
+					judulSoal: "Pilih Salah Satu",
+					tipeSoal: "Pilih Salah Satu",
 				};
 			case "setSoal":
 				return {
@@ -120,15 +122,6 @@ export default function QuizPage() {
 		}
 	}
 
-	//const quizDataLength = quizData.soal.length;
-
-	// const fisherYatesShuffle = (array) => {
-	// 	for (let i = array.length - 1; i > 0; i--) {
-	// 		const j = Math.floor(Math.random() * (i + 1));
-	// 		[array[i], array[j]] = [array[j], array[i]]; // Swap
-	// 	}
-	// };
-
 	useEffect(() => {
 		if (judulSoal === "Pilih Salah Satu") return;
 		var findJudulSoal = dataSoal.find((judul) => judul.kelas === judulSoal);
@@ -143,8 +136,8 @@ export default function QuizPage() {
 		var soalSliced = findJudulSoal.soal.slice(dari - 1, sampai);
 
 		const randomSoal = [...soalSliced];
-		fisherYatesShuffle(randomSoal);
-
+		if(tipeSoal !== "Semua Soal(171) Sesuai Urutan")fisherYatesShuffle(randomSoal)
+		
 		const randomOption = randomSoal.map((item) => {
 			const options = [...item.options];
 			fisherYatesShuffle(options);
@@ -156,7 +149,6 @@ export default function QuizPage() {
 
 		const soal = { ...findJudulSoal, soal: randomOption };
 		dispatch({ type: "setQuizData", payload: soal });
-		console.log(randomOption);
 	}, [status, judulSoal, tipeSoal]);
 
 	useEffect(() => {
