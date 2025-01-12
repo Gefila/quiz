@@ -28,7 +28,7 @@ export default function Finish({
 			date: new Date().toLocaleString(),
 			image: listImage[Math.floor(Math.random() * listImage.length)],
 		};
-		quizHistory.push(data);
+		quizHistory.unshift(data);
 		localStorage.setItem("quizHistory", JSON.stringify(quizHistory));
 	}, []);
 
