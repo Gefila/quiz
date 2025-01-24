@@ -31,7 +31,7 @@ export default function QuizPage() {
 		option: "",
 		isCorrect: false,
 		score: 0,
-		name: "Gefila Zona Pranata",
+		name: "",
 		judulSoal: "Pilih Salah Satu",
 		tipeSoal: "Pilih Salah Satu",
 		tipeSoalData: [],
