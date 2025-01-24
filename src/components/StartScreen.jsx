@@ -13,8 +13,8 @@ export default function StartScreen({
 	);
 
 	return (
-		<div className="flex flex-col items-center rounded-lg gap-5 m-auto">
-			<div className="flex flex-col items-center bg-slate-900 p-5 rounded-lg gap-3">
+		<div className="flex flex-col items-center rounded-lg gap-5 m-auto p-5">
+			<div className="flex flex-col items-center bg-slate-900 p-3 rounded-lg gap-3 w-full">
 				<h1 className="text-white font-bold text-2xl">
 					Selamat Datang di QuizKuy
 				</h1>
