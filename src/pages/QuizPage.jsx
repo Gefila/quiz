@@ -91,6 +91,7 @@ export default function QuizPage() {
 					counter: 0,
 					judulSoal: "Pilih Salah Satu",
 					tipeSoal: "Pilih Salah Satu",
+					name: "",
 				};
 			case "setSoal":
 				return {

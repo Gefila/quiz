@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import InputText from "./InputText";
+import InputSelect from "./InputSelect";
 
 export default function StartScreen({
 	dispatch,
@@ -18,57 +20,31 @@ export default function StartScreen({
 				<h1 className="text-white font-bold text-2xl">
 					Selamat Datang di QuizKuy
 				</h1>
-				<label className="form-control w-full max-w-xs">
-					<div className="label">
-						<span className="label-text">Masukkan Nama Anda?</span>
-					</div>
-					<input
-						type="text"
-						placeholder="Type here"
-						className="input input-bordered w-full max-w-xs"
-						value={name}
-						onChange={(e) =>
-							dispatch({ type: "setName", payload: e.target.value })
-						}
-						required
-					/>
-				</label>
-				<label className="form-control w-full max-w-xs">
-					<div className="label">
-						<span className="label-text">Pilih Soal</span>
-					</div>
-					<select
-						className="select select-bordered"
-						value={judulSoal}
-						required
-						onChange={(e) =>
-							dispatch({ type: "setSoal", payload: e.target.value })
-						}
-					>
-						<option disabled>Pilih Salah Satu</option>
-						{daftarSoal.map((soal, index) => (
-							<option key={index}>{soal}</option>
-						))}
-					</select>
-				</label>
-				<label className="form-control w-full max-w-xs">
-					<div className="label">
-						<span className="label-text">Tipe Soal</span>
-					</div>
-					<select
-						className="select select-bordered"
-						value={tipeSoal}
-						required
-						onChange={(e) => {
-							dispatch({ type: "setTipeSoal", payload: e.target.value });
-						}}
-					>
-						<option disabled>Pilih Salah Satu</option>
-						{daftarTipeSoal.map((tipe, index) => (
+				<InputText
+					value={name}
+					onChange={(e) =>
+						dispatch({ type: "setName", payload: e.target.value })
+					}
+					placeholder="Masukkan Nama Anda"
+				>
+					Masukkan Nama Anda?
+				</InputText>
+				<InputSelect
+					value={judulSoal}
+					label="Pilih Soal"
+					onChange={(e) =>
+						dispatch({ type: "setSoal", payload: e.target.value })
+					}
+				>
+					{daftarSoal.map((soal, index) => (
+						<option key={index}>{soal}</option>
+					))}
+				</InputSelect>
+				<InputSelect value={tipeSoal} label="Tipe Soal" onChange={(e) => dispatch({ type: "setTipeSoal", payload: e.target.value })}>
+				{daftarTipeSoal.map((tipe, index) => (
 							<option key={index}>{tipe.tipe}</option>
 						))}
-					</select>
-				</label>
+				</InputSelect>
 
 				{/* Open the modal using document.getElementById('ID').showModal() method */}
 				<button
@@ -125,7 +101,7 @@ export default function StartScreen({
 								<div className="w-6 rounded-full">
 									<img src={history.image} />
 								</div>
-							<p className="text-white text-sm font-bold ml-1">{`${history.name}, ${history.date}`}</p>
+								<p className="text-white text-sm font-bold ml-1">{`${history.name}, ${history.date}`}</p>
 							</div>
 							<p className="text-white text-sm font-sm">{`${history.judulSoal} (${history.tipeSoal})`}</p>
 							<p className="text-white text-sm font-sm">{`Score: ${
